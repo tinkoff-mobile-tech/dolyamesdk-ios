@@ -1,0 +1,78 @@
+PODS:
+  - Amplitude (8.5.0)
+  - DolyameSDK (1.0.0):
+    - Amplitude (~> 8.5.0)
+    - GzipSwift (~> 5.1.1)
+    - Insecurity (~> 3.0.1)
+    - "Keyboard+LayoutGuide (~> 1.6.0)"
+    - Kingfisher (~> 7.1.1)
+    - KingfisherWebP (~> 1.4.0)
+    - SnapKit (~> 5.0.1)
+    - SwiftyJSON (~> 5.0.1)
+    - TinkoffASDKCore (~> 3.0.0-alpha7)
+    - TinkoffASDKUI (~> 3.0.0-alpha7)
+    - TPKeyboardAvoiding (~> 1.3.5)
+  - GzipSwift (5.1.1)
+  - Insecurity (3.0.1)
+  - "Keyboard+LayoutGuide (1.6.0)"
+  - Kingfisher (7.1.2)
+  - KingfisherWebP (1.4.0):
+    - Kingfisher (~> 7.0)
+    - libwebp (>= 1.1.0)
+  - libwebp (1.2.1):
+    - libwebp/demux (= 1.2.1)
+    - libwebp/mux (= 1.2.1)
+    - libwebp/webp (= 1.2.1)
+  - libwebp/demux (1.2.1):
+    - libwebp/webp
+  - libwebp/mux (1.2.1):
+    - libwebp/demux
+  - libwebp/webp (1.2.1)
+  - SnapKit (5.0.1)
+  - SwiftyJSON (5.0.1)
+  - TinkoffASDKCore (3.0.0-alpha7)
+  - TinkoffASDKUI (3.0.0-alpha7):
+    - TinkoffASDKCore (= 3.0.0-alpha7)
+  - TPKeyboardAvoiding (1.3.5)
+
+DEPENDENCIES:
+  - DolyameSDK (from `../`)
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Amplitude
+    - GzipSwift
+    - Insecurity
+    - "Keyboard+LayoutGuide"
+    - Kingfisher
+    - KingfisherWebP
+    - libwebp
+    - SnapKit
+    - SwiftyJSON
+    - TinkoffASDKCore
+    - TinkoffASDKUI
+    - TPKeyboardAvoiding
+
+EXTERNAL SOURCES:
+  DolyameSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Amplitude: ef9ed339ddd33c9183edf63fa4bbaa86cf873321
+  DolyameSDK: f8c3c9e5fb1ff7aa5552f021d3ba1182464279b3
+  GzipSwift: 893f3e48e597a1a4f62fafcb6514220fcf8287fa
+  Insecurity: 8235276dbda4a35e211e636959ccc9f4f94de55a
+  "Keyboard+LayoutGuide": db44b1764e2bb5d9824cc9cea9d9006cd4442045
+  Kingfisher: 44ed6a8504763f27bab46163adfac83f5deb240c
+  KingfisherWebP: f4b76064c50a36c4cadd37548496ecebfdcb39e8
+  libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  TinkoffASDKCore: a2bc3bee75e8a1b6d2f9f18f47312f5addb961b5
+  TinkoffASDKUI: 6a39d35b427c47321bdf7a722bdb5bfc6ec8b3f9
+  TPKeyboardAvoiding: d55b3ea7b362540af8fcf36aa3ed2e87bf210cc6
+
+PODFILE CHECKSUM: 687f3fb71ef65761d717a85634ffa5a7164c6958
+
+COCOAPODS: 1.11.2

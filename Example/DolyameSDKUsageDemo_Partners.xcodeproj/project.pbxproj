@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080E95E14BE5DA889EF5815A /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDED52656C94A8B8192F7BB /* ApplicationCoordinator.swift */; };
+		090A8F0098AA2F05CC3102B8 /* Pods_DolyameSDKUsageDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5DFF05E5AD53961586CB69 /* Pods_DolyameSDKUsageDemo.framework */; };
+		0DFD70868C52DD657A78325C /* ModifiableParameterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720DB3A504F552FA9844F07D /* ModifiableParameterView.swift */; };
+		162C7AEF3D7247711874C156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061D691E36F05E0193D8B629 /* LaunchScreen.storyboard */; };
+		1B377BBB28A510A465AA989C /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6B49115B6A985212D788120 /* LaunchScreen.strings */; };
+		1BC149121EC07D22998A667E /* CartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2A8BC8E10982FD3062E541 /* CartCoordinator.swift */; };
+		1D55D32D7668B68A1196E3B4 /* ItemsListViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE1583DD64DFE146DDE8F19 /* ItemsListViewIO.swift */; };
+		1FC01C215EE1733D5D4A9B8D /* CheckoutItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9676BA495831E2C848B4DAA /* CheckoutItemView.swift */; };
+		279B1C53EB80070030609DF3 /* ItemsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CF2DCADE13A035A866C05 /* ItemsListPresenter.swift */; };
+		2AC46F37B2B7241F9B9F113F /* ItemsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35EC18D53416CFEAF5F0D8 /* ItemsListViewController.swift */; };
+		3CF3E689E494423F5FD3A59A /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C689D68E70E228898F28FB9 /* CartViewController.swift */; };
+		3FC9A0F1F968DEB29AD2F40C /* AddNewItemPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D5EA35CDD39613CAAD704 /* AddNewItemPresenter.swift */; };
+		6B5347D72926141FC6F2F7CD /* ItemsListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7F28F2E6C7B7077CE4699D /* ItemsListCoordinator.swift */; };
+		7111E6B85F1536CB1A13AA3C /* CheckoutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296BFB3E3A30D87370F0528 /* CheckoutPresenter.swift */; };
+		7513D002F6F6A434D0892B42 /* CheckoutCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D06ED8232AC1730968A96D5 /* CheckoutCoordinator.swift */; };
+		76066C64FADCB2DEFCE7869D /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E598B207C158124A6F33F8 /* CheckoutViewController.swift */; };
+		86F6E448591EF48E4132D61E /* SwitchParameterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1185F9B94A939CEF613FBEE /* SwitchParameterView.swift */; };
+		8E2340D5935DB03B9E134D76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B695B0FC9ADCD38B669390 /* Assets.xcassets */; };
+		ACD4071F882EDFE15BDC03DC /* AddNewItemViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AD4C337F4B239DC2CA88AF /* AddNewItemViewIO.swift */; };
+		B9333B4A7EABB4330268B83C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B1F76518F4626C5DFA5277 /* AppDelegate.swift */; };
+		C122FEB6B367DC9B2BBDC6E3 /* AddNewItemCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D2B7E40674F0226813AC7 /* AddNewItemCoordinator.swift */; };
+		D04E570951D1EC195653BC70 /* CheckoutViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FF02D3735108C98D32FED6 /* CheckoutViewIO.swift */; };
+		D21FB9CAE14EA577A4D3D29E /* AddNewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CE20AB5C0DB0DE3F5F396 /* AddNewItemViewController.swift */; };
+		D6276ADB80326CEF62689D65 /* InputValueValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8895B8B9283B8534CC78EB /* InputValueValidator.swift */; };
+		DC7B1DE8925E9720E7AA68EB /* CheckoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079DE777CFC9E1A8200C7B9 /* CheckoutModel.swift */; };
+		E073599CF4B49279A447BE71 /* ItemsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69B3CCA124D638DE871FDA1 /* ItemsListCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0079DE777CFC9E1A8200C7B9 /* CheckoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutModel.swift; sourceTree = "<group>"; };
+		061D691E36F05E0193D8B629 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ru.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F5CF2DCADE13A035A866C05 /* ItemsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListPresenter.swift; sourceTree = "<group>"; };
+		3296BFB3E3A30D87370F0528 /* CheckoutPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutPresenter.swift; sourceTree = "<group>"; };
+		4A60F0BF3F504B719E4766CC /* Pods-DolyameSDKUsageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolyameSDKUsageDemo.release.xcconfig"; path = "Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4D06ED8232AC1730968A96D5 /* CheckoutCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutCoordinator.swift; sourceTree = "<group>"; };
+		4E2D2B7E40674F0226813AC7 /* AddNewItemCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemCoordinator.swift; sourceTree = "<group>"; };
+		4F8895B8B9283B8534CC78EB /* InputValueValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValueValidator.swift; sourceTree = "<group>"; };
+		5B5DFF05E5AD53961586CB69 /* Pods_DolyameSDKUsageDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DolyameSDKUsageDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C689D68E70E228898F28FB9 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		63E598B207C158124A6F33F8 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		6805FF58A135CE844E2228C7 /* DolyameSDKUsageDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DolyameSDKUsageDemo.entitlements; sourceTree = "<group>"; };
+		6907BE8F52D44D9F8275CBC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		720DB3A504F552FA9844F07D /* ModifiableParameterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiableParameterView.swift; sourceTree = "<group>"; };
+		8C2A8BC8E10982FD3062E541 /* CartCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCoordinator.swift; sourceTree = "<group>"; };
+		A6B49115B6A985212D788120 /* LaunchScreen.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = LaunchScreen.strings; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B69B3CCA124D638DE871FDA1 /* ItemsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListCell.swift; sourceTree = "<group>"; };
+		B8FF02D3735108C98D32FED6 /* CheckoutViewIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewIO.swift; sourceTree = "<group>"; };
+		C1185F9B94A939CEF613FBEE /* SwitchParameterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchParameterView.swift; sourceTree = "<group>"; };
+		C307D091DE2F9ED6403002C4 /* DolyameSDKUsageDemo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DolyameSDKUsageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AD4C337F4B239DC2CA88AF /* AddNewItemViewIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemViewIO.swift; sourceTree = "<group>"; };
+		D3B1F76518F4626C5DFA5277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9676BA495831E2C848B4DAA /* CheckoutItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutItemView.swift; sourceTree = "<group>"; };
+		DD35EC18D53416CFEAF5F0D8 /* ItemsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListViewController.swift; sourceTree = "<group>"; };
+		DF4D5EA35CDD39613CAAD704 /* AddNewItemPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemPresenter.swift; sourceTree = "<group>"; };
+		E08CE20AB5C0DB0DE3F5F396 /* AddNewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemViewController.swift; sourceTree = "<group>"; };
+		E3AB6B21ED63D34E5D7D4E16 /* Pods-DolyameSDKUsageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolyameSDKUsageDemo.debug.xcconfig"; path = "Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		ED7F28F2E6C7B7077CE4699D /* ItemsListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListCoordinator.swift; sourceTree = "<group>"; };
+		EEE1583DD64DFE146DDE8F19 /* ItemsListViewIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListViewIO.swift; sourceTree = "<group>"; };
+		F6B695B0FC9ADCD38B669390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCDED52656C94A8B8192F7BB /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78D8AEAA46EA3B7948331F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090A8F0098AA2F05CC3102B8 /* Pods_DolyameSDKUsageDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DD1DECF127DA84EEC147DB /* DolyameSDKUsageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D3B1F76518F4626C5DFA5277 /* AppDelegate.swift */,
+				FCDED52656C94A8B8192F7BB /* ApplicationCoordinator.swift */,
+				6907BE8F52D44D9F8275CBC2 /* Info.plist */,
+				061D691E36F05E0193D8B629 /* LaunchScreen.storyboard */,
+				A6B49115B6A985212D788120 /* LaunchScreen.strings */,
+				8C2D09E7521867EFAD3E9919 /* Entitlements */,
+				9A5FFD390E85EAF5CB9C6EA3 /* Resources */,
+				9F41AF15307AB42AF5FA5069 /* Utils */,
+				1C50BCEAEAAA740AB5590402 /* Workflows */,
+			);
+			path = DolyameSDKUsageDemo;
+			sourceTree = "<group>";
+		};
+		1C50BCEAEAAA740AB5590402 /* Workflows */ = {
+			isa = PBXGroup;
+			children = (
+				52DED3452D69BEB43FE7D2E5 /* Cart */,
+				42ACA0034A9B8174CEE01710 /* Checkout */,
+				82ED342A4304B35E6F363073 /* Items */,
+			);
+			path = Workflows;
+			sourceTree = "<group>";
+		};
+		31ABBCA89A325FF3523A1648 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3AB6B21ED63D34E5D7D4E16 /* Pods-DolyameSDKUsageDemo.debug.xcconfig */,
+				4A60F0BF3F504B719E4766CC /* Pods-DolyameSDKUsageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3CBB709E1E056B6BE594716F /* ItemsList */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F28F2E6C7B7077CE4699D /* ItemsListCoordinator.swift */,
+				2F5CF2DCADE13A035A866C05 /* ItemsListPresenter.swift */,
+				DD35EC18D53416CFEAF5F0D8 /* ItemsListViewController.swift */,
+				EEE1583DD64DFE146DDE8F19 /* ItemsListViewIO.swift */,
+				6DC110CE02998388D37EFBC3 /* Cells */,
+			);
+			path = ItemsList;
+			sourceTree = "<group>";
+		};
+		42ACA0034A9B8174CEE01710 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				4D06ED8232AC1730968A96D5 /* CheckoutCoordinator.swift */,
+				3296BFB3E3A30D87370F0528 /* CheckoutPresenter.swift */,
+				63E598B207C158124A6F33F8 /* CheckoutViewController.swift */,
+				B8FF02D3735108C98D32FED6 /* CheckoutViewIO.swift */,
+				EBB63638F6801D3AA0F99F75 /* Model */,
+				ADA0BBFA3CAE030133C6DD38 /* Views */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		52DED3452D69BEB43FE7D2E5 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				8C2A8BC8E10982FD3062E541 /* CartCoordinator.swift */,
+				5C689D68E70E228898F28FB9 /* CartViewController.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		5C731C2D5B2E5D1815517B9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B5DFF05E5AD53961586CB69 /* Pods_DolyameSDKUsageDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DC110CE02998388D37EFBC3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B69B3CCA124D638DE871FDA1 /* ItemsListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		71183FA7C321199FFD973406 = {
+			isa = PBXGroup;
+			children = (
+				04DD1DECF127DA84EEC147DB /* DolyameSDKUsageDemo */,
+				C817E5659C19FC9BF444AFB6 /* Products */,
+				31ABBCA89A325FF3523A1648 /* Pods */,
+				5C731C2D5B2E5D1815517B9E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82ED342A4304B35E6F363073 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				93C92695E28E8667BCAD5784 /* AddNewItem */,
+				3CBB709E1E056B6BE594716F /* ItemsList */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		8C2D09E7521867EFAD3E9919 /* Entitlements */ = {
+			isa = PBXGroup;
+			children = (
+				6805FF58A135CE844E2228C7 /* DolyameSDKUsageDemo.entitlements */,
+			);
+			path = Entitlements;
+			sourceTree = "<group>";
+		};
+		93C92695E28E8667BCAD5784 /* AddNewItem */ = {
+			isa = PBXGroup;
+			children = (
+				4E2D2B7E40674F0226813AC7 /* AddNewItemCoordinator.swift */,
+				DF4D5EA35CDD39613CAAD704 /* AddNewItemPresenter.swift */,
+				E08CE20AB5C0DB0DE3F5F396 /* AddNewItemViewController.swift */,
+				D2AD4C337F4B239DC2CA88AF /* AddNewItemViewIO.swift */,
+			);
+			path = AddNewItem;
+			sourceTree = "<group>";
+		};
+		9A5FFD390E85EAF5CB9C6EA3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6B695B0FC9ADCD38B669390 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9F41AF15307AB42AF5FA5069 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4F8895B8B9283B8534CC78EB /* InputValueValidator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		ADA0BBFA3CAE030133C6DD38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9676BA495831E2C848B4DAA /* CheckoutItemView.swift */,
+				720DB3A504F552FA9844F07D /* ModifiableParameterView.swift */,
+				C1185F9B94A939CEF613FBEE /* SwitchParameterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C817E5659C19FC9BF444AFB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C307D091DE2F9ED6403002C4 /* DolyameSDKUsageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBB63638F6801D3AA0F99F75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0079DE777CFC9E1A8200C7B9 /* CheckoutModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9267CF26DD325B6F9F8CFCBE /* DolyameSDKUsageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F96489DB8EE7DCF29396BF9B /* Build configuration list for PBXNativeTarget "DolyameSDKUsageDemo" */;
+			buildPhases = (
+				DE360708A9D61C5EAA5DA53D /* [CP] Check Pods Manifest.lock */,
+				037A7F7F398479A0D5104C59 /* Sources */,
+				ABC3C398B3C9B05FB0DCF0C5 /* Resources */,
+				78D8AEAA46EA3B7948331F65 /* Frameworks */,
+				DD3F99AB9846226616F5FBB9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DolyameSDKUsageDemo;
+			productName = DolyameSDKUsageDemo;
+			productReference = C307D091DE2F9ED6403002C4 /* DolyameSDKUsageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2051B8A4DB0766D6943BA0A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					9267CF26DD325B6F9F8CFCBE = {
+						DevelopmentTeam = 8SEFGGQX9M;
+					};
+				};
+			};
+			buildConfigurationList = 9EA4EAEE8CEC0C9416DC3562 /* Build configuration list for PBXProject "DolyameSDKUsageDemo_Partners" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				ru,
+			);
+			mainGroup = 71183FA7C321199FFD973406;
+			productRefGroup = C817E5659C19FC9BF444AFB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9267CF26DD325B6F9F8CFCBE /* DolyameSDKUsageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC3C398B3C9B05FB0DCF0C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2340D5935DB03B9E134D76 /* Assets.xcassets in Resources */,
+				162C7AEF3D7247711874C156 /* LaunchScreen.storyboard in Resources */,
+				1B377BBB28A510A465AA989C /* LaunchScreen.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD3F99AB9846226616F5FBB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE360708A9D61C5EAA5DA53D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DolyameSDKUsageDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		037A7F7F398479A0D5104C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C122FEB6B367DC9B2BBDC6E3 /* AddNewItemCoordinator.swift in Sources */,
+				3FC9A0F1F968DEB29AD2F40C /* AddNewItemPresenter.swift in Sources */,
+				D21FB9CAE14EA577A4D3D29E /* AddNewItemViewController.swift in Sources */,
+				ACD4071F882EDFE15BDC03DC /* AddNewItemViewIO.swift in Sources */,
+				B9333B4A7EABB4330268B83C /* AppDelegate.swift in Sources */,
+				080E95E14BE5DA889EF5815A /* ApplicationCoordinator.swift in Sources */,
+				1BC149121EC07D22998A667E /* CartCoordinator.swift in Sources */,
+				3CF3E689E494423F5FD3A59A /* CartViewController.swift in Sources */,
+				7513D002F6F6A434D0892B42 /* CheckoutCoordinator.swift in Sources */,
+				1FC01C215EE1733D5D4A9B8D /* CheckoutItemView.swift in Sources */,
+				DC7B1DE8925E9720E7AA68EB /* CheckoutModel.swift in Sources */,
+				7111E6B85F1536CB1A13AA3C /* CheckoutPresenter.swift in Sources */,
+				76066C64FADCB2DEFCE7869D /* CheckoutViewController.swift in Sources */,
+				D04E570951D1EC195653BC70 /* CheckoutViewIO.swift in Sources */,
+				D6276ADB80326CEF62689D65 /* InputValueValidator.swift in Sources */,
+				E073599CF4B49279A447BE71 /* ItemsListCell.swift in Sources */,
+				6B5347D72926141FC6F2F7CD /* ItemsListCoordinator.swift in Sources */,
+				279B1C53EB80070030609DF3 /* ItemsListPresenter.swift in Sources */,
+				2AC46F37B2B7241F9B9F113F /* ItemsListViewController.swift in Sources */,
+				1D55D32D7668B68A1196E3B4 /* ItemsListViewIO.swift in Sources */,
+				0DFD70868C52DD657A78325C /* ModifiableParameterView.swift in Sources */,
+				86F6E448591EF48E4132D61E /* SwitchParameterView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0CE0F01816981ED5BAE029CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A60F0BF3F504B719E4766CC /* Pods-DolyameSDKUsageDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_ENTITLEMENTS = DolyameSDKUsageDemo/Entitlements/DolyameSDKUsageDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Tinkoff Bank (8SEFGGQX9M)";
+				CURRENT_PROJECT_VERSION = 1090;
+				DEVELOPMENT_TEAM = 8SEFGGQX9M;
+				INFOPLIST_FILE = DolyameSDKUsageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.tcsbank.dolyamesdk;
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore ru.tcsbank.dolyamesdk";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		19607BBF9632CBD84FFA3B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Z8MAVG5W47;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DA33A8331457C6DB1CF7B36C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3AB6B21ED63D34E5D7D4E16 /* Pods-DolyameSDKUsageDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_ENTITLEMENTS = DolyameSDKUsageDemo/Entitlements/DolyameSDKUsageDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development: iOS Automation (32CR662BJU)";
+				CURRENT_PROJECT_VERSION = 1090;
+				DEVELOPMENT_TEAM = 8SEFGGQX9M;
+				INFOPLIST_FILE = DolyameSDKUsageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.tcsbank.dolyamesdk;
+				PROVISIONING_PROFILE_SPECIFIER = "match Development ru.tcsbank.dolyamesdk";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EBD27B02C8BF600E99E63E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Z8MAVG5W47;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EA4EAEE8CEC0C9416DC3562 /* Build configuration list for PBXProject "DolyameSDKUsageDemo_Partners" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19607BBF9632CBD84FFA3B0B /* Debug */,
+				EBD27B02C8BF600E99E63E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F96489DB8EE7DCF29396BF9B /* Build configuration list for PBXNativeTarget "DolyameSDKUsageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA33A8331457C6DB1CF7B36C /* Debug */,
+				0CE0F01816981ED5BAE029CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2051B8A4DB0766D6943BA0A2 /* Project object */;
+}

@@ -1,0 +1,26 @@
+name: DolyameSDKUsageDemo_Partners
+settings:
+  DEVELOPMENT_TEAM: Z8MAVG5W47
+
+targets:
+  DolyameSDKUsageDemo:
+    scheme: {}
+    type: application
+    platform: iOS
+    deploymentTarget: "13.0"
+    sources: [DolyameSDKUsageDemo]
+    settings:
+      base:
+        CURRENT_PROJECT_VERSION: 1
+        BUILD_LIBRARY_FOR_DISTRIBUTION: YES
+        PRODUCT_BUNDLE_IDENTIFIER: ru.tcsbank.dolyamesdk
+        TARGETED_DEVICE_FAMILY: 1
+        DEVELOPMENT_TEAM: 8SEFGGQX9M
+        CODE_SIGN_ENTITLEMENTS: DolyameSDKUsageDemo/Entitlements/DolyameSDKUsageDemo.entitlements
+      configs:
+        Debug:
+          PROVISIONING_PROFILE_SPECIFIER: "match Development ru.tcsbank.dolyamesdk"
+          CODE_SIGN_IDENTITY: "Apple Development: iOS Automation (32CR662BJU)"
+        Release:
+          PROVISIONING_PROFILE_SPECIFIER: "match AppStore ru.tcsbank.dolyamesdk"
+          CODE_SIGN_IDENTITY: "Apple Distribution: Tinkoff Bank (8SEFGGQX9M)"

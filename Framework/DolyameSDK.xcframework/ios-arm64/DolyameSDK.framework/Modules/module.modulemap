@@ -1,0 +1,11 @@
+framework module DolyameSDK {
+	umbrella header "DolyameSDK-umbrella.h"
+
+	export *
+	module * { export * }
+}
+
+module DolyameSDK.Swift {
+    header "DolyameSDK-Swift.h"
+    requires objc
+}
