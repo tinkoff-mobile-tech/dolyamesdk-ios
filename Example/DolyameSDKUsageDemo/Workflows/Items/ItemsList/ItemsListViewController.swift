@@ -12,7 +12,7 @@ class ItemsListViewController: UIViewController {
 
     private let presenter: IItemsListViewOutput
 
-    private let tableView = UITableView(frame: .zero, style: .insetGrouped)
+    private let tableView = UITableView(frame: .zero, style: .grouped)
     private let toolBar = UIView()
     private let addBarButton = UIButton(type: .system)
 
@@ -33,7 +33,11 @@ class ItemsListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemBackground
+        if #available(iOS 13.0, *) {
+            view.backgroundColor = .systemBackground
+        } else {
+            view.backgroundColor = .white
+        }
 
         title = "Товары"
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Закрыть", style: .plain, target: self, action: #selector(onCloseTouched))
@@ -43,9 +47,17 @@ class ItemsListViewController: UIViewController {
         tableView.snp.makeConstraints { make in
             make.leading.trailing.top.equalToSuperview()
         }
-
+        if #available(iOS 13.0, *) {
+            toolBar.backgroundColor = .systemBackground
+        } else {
+            toolBar.backgroundColor = .white
+        }
         view.addSubview(toolBar)
-        toolBar.backgroundColor = .systemBackground
+        if #available(iOS 13.0, *) {
+            toolBar.backgroundColor = .systemBackground
+        } else {
+            toolBar.backgroundColor = .white
+        }
         toolBar.snp.makeConstraints { make in
             make.top.equalTo(tableView.snp.bottom)
             make.leading.trailing.equalToSuperview()

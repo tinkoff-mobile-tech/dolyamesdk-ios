@@ -70,7 +70,12 @@ class AddNewItemViewController: UIViewController {
         title = "Добавить новый товар"
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Закрыть", style: .plain, target: self, action: #selector(onCloseTouched))
 
-        view.backgroundColor = .systemBackground
+        if #available(iOS 13.0, *) {
+            view.backgroundColor = .systemBackground
+        } else {
+            view.backgroundColor = .white
+        }
+
         stackView.axis = .vertical
         stackView.spacing = 2
         view.addSubview(stackView)

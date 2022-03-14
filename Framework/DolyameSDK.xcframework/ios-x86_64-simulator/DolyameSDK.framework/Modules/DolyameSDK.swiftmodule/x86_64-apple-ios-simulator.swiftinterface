@@ -1,15 +1,15 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DolyameSDK
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DolyameSDK
 import Amplitude
 import QuartzCore.CAAnimation
 import QuartzCore.CAMediaTimingFunction
+import CommonCrypto
 import QuartzCore.CoreAnimation
 import CoreData
 import CoreGraphics
 import CoreTelephony
 import CryptoKit
-import Dispatch
 @_exported import DolyameSDK
 import Foundation
 import Gzip
@@ -189,9 +189,6 @@ extension DolyameSDK.EventMO {
     @objc set
   }
 }
-extension DolyameSDK.EventMO : Swift.Identifiable {
-  public typealias ID = Swift.ObjectIdentifier
-}
 @objc @_inheritsConvenienceInitializers public class LogMO : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
   @objc deinit
@@ -234,9 +231,6 @@ extension DolyameSDK.LogMO {
     @objc get
     @objc set
   }
-}
-extension DolyameSDK.LogMO : Swift.Identifiable {
-  public typealias ID = Swift.ObjectIdentifier
 }
 extension DolyameSDK.DolyamePaymentCoordinatorResult : Swift.Equatable {}
 extension DolyameSDK.DolyamePaymentCoordinatorResult : Swift.Hashable {}

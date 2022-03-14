@@ -142,7 +142,11 @@ class CheckoutViewController: UIViewController {
     // MARK: Private
 
     private func setup() {
-        view.backgroundColor = .systemBackground
+        if #available(iOS 13.0, *) {
+            view.backgroundColor = .systemBackground
+        } else {
+            view.backgroundColor = .white
+        }
 
         view.addSubview(scrollView)
         scrollView.snp.makeConstraints { make in

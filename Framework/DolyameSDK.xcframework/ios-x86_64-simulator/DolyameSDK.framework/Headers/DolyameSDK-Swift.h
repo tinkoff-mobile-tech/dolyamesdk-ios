@@ -241,7 +241,6 @@ SWIFT_CLASS("_TtC10DolyameSDK7EventMO")
 @end
 
 
-
 @class NSData;
 @class NSString;
 @class NSNumber;
@@ -265,7 +264,6 @@ SWIFT_CLASS("_TtC10DolyameSDK5LogMO")
 
 
 
-
 @interface LogMO (SWIFT_EXTENSION(DolyameSDK))
 @property (nonatomic, copy) NSString * _Nullable file;
 @property (nonatomic, copy) NSString * _Nullable function;
@@ -277,7 +275,6 @@ SWIFT_CLASS("_TtC10DolyameSDK5LogMO")
 @property (nonatomic, copy) NSString * _Nullable thread;
 @property (nonatomic) double timestamp;
 @end
-
 
 
 

@@ -13,7 +13,11 @@ class CheckoutItemView: UIView {
         super.init(frame: .zero)
 
         let containerView = UIView()
-        containerView.backgroundColor = UIColor.systemGroupedBackground
+        if #available(iOS 13.0, *) {
+            containerView.backgroundColor = .systemGroupedBackground
+        } else {
+            containerView.backgroundColor = UIColor(red: 242.0 / 255.0, green: 242.0 / 255.0, blue: 247.0 / 255.0, alpha: 1.0)
+        }
         containerView.layer.cornerRadius = 12.0
 
         containerView.addSubview(titleLabel)
