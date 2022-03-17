@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'DolyameSDK'
   s.summary          = 'Dolyame SDK for iOS'
 
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
 
   s.authors = {
     'Isaac Weisberg' => 'a.vaysberg@tinkoff.ru',
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.dependency 'SnapKit', '~> 5.0.1'
   s.dependency 'Keyboard+LayoutGuide', '~> 1.6.0'
   s.dependency 'TPKeyboardAvoiding', '~> 1.3.5'
-  s.dependency 'Insecurity', '~> 3.0.2'
+  s.dependency 'Insecurity', '~> 3.0.3'
   s.dependency 'Kingfisher', '~> 7.2.0'
   s.dependency 'KingfisherWebP', '~> 1.4.0'
   s.dependency 'TinkoffASDKCore', '~> 3.0.0-alpha7'
