@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'DolyameSDK'
   s.summary          = 'Dolyame SDK for iOS'
 
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
 
   s.authors = {
     'Isaac Weisberg' => 'a.vaysberg@tinkoff.ru',
@@ -32,6 +32,5 @@ Pod::Spec.new do |s|
   s.dependency 'TinkoffASDKCore', '~> 3.0.0-alpha7'
   s.dependency 'TinkoffASDKUI', '~> 3.0.0-alpha7'
   s.dependency 'Amplitude', '~> 8.5.0'
-  s.dependency 'GzipSwift', '~> 5.1.1'
   s.dependency 'SwiftyJSON', '~> 5.0.1'
 end

@@ -12,7 +12,7 @@ import CoreTelephony
 import CryptoKit
 @_exported import DolyameSDK
 import Foundation
-import Gzip
+import Foundation/*.Data*/
 import Insecurity
 import KeyboardLayoutGuide
 import Kingfisher
@@ -38,6 +38,7 @@ import _Concurrency
 import os.log
 import os
 import os.signpost
+import zlib
 @_hasMissingDesignatedInitializers public class Dolyame {
   public static let shared: DolyameSDK.Dolyame
   public func logout()

@@ -17,8 +17,18 @@
 pod 'DolyameSDK'
 ```
 
-Для корректной сборки проекта с SDK необходимо выставить BUILD_LIBRARY_FOR_DISTRIBUTION в YES в Build settings для target вашего приложения в Xcode. 
-В будущей версии SDK мы уберем эту необходимость дополнительной настройки проекта.
+Для корректной сборки проекта с SDK внизу вашего Podfile необходимо указать следующее:
+```ruby
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+        end
+    end
+end
+```
+
+В будущей версии SDK мы уберем эту необходимость дополнительной конфигурации post_install хука в Podfile.
 
 ## Использование SDK
 Минимальная версия iOS 13.0.
@@ -94,7 +104,7 @@ id|`String`|Уникальный идентификатор заказа. Дол
 amount|`Decimal`|Сумма для оплаты через сервис Долями. <br />Должно соблюдаться условие `amount + prepaidAmount == items.map { i in i.quantity * i.price }.reduce(0, +)`
 prepaidAmount|`Decimal`|Сумма аванса, внесенного клиентом через другие способы оплаты. <br />Должно соблюдаться условие `amount + prepaidAmount == items.map { i in i.quantity * i.price }.reduce(0, +)`
 items|`[DolyamePaymentConfiguration.Order.Item]`|Массив с позициями в заказе
-mcc|`Int`|MCC код с которым нужно совершить платеж
+mcc|`Int`|MCC код с которым нужно совершить платеж. Указывайте значение 5311.
 
 <p style="page-break-after: always;">&nbsp;</p>
 

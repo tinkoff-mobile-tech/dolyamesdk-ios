@@ -12,9 +12,9 @@
 		162C7AEF3D7247711874C156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061D691E36F05E0193D8B629 /* LaunchScreen.storyboard */; };
 		1B377BBB28A510A465AA989C /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6B49115B6A985212D788120 /* LaunchScreen.strings */; };
 		1BC149121EC07D22998A667E /* CartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2A8BC8E10982FD3062E541 /* CartCoordinator.swift */; };
+		1CA99A153DC477CC15871BDF /* Pods_DolyameSDKUsageDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1A6662835EE1EC005E25B9 /* Pods_DolyameSDKUsageDemo.framework */; };
 		1D55D32D7668B68A1196E3B4 /* ItemsListViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE1583DD64DFE146DDE8F19 /* ItemsListViewIO.swift */; };
 		1FC01C215EE1733D5D4A9B8D /* CheckoutItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9676BA495831E2C848B4DAA /* CheckoutItemView.swift */; };
-		268CB5015D6316FFF02BC090 /* Pods_DolyameSDKUsageDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF7265E466E3929AE752FBC /* Pods_DolyameSDKUsageDemo.framework */; };
 		279B1C53EB80070030609DF3 /* ItemsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CF2DCADE13A035A866C05 /* ItemsListPresenter.swift */; };
 		2AC46F37B2B7241F9B9F113F /* ItemsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35EC18D53416CFEAF5F0D8 /* ItemsListViewController.swift */; };
 		3CF3E689E494423F5FD3A59A /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C689D68E70E228898F28FB9 /* CartViewController.swift */; };
@@ -38,6 +38,7 @@
 /* Begin PBXFileReference section */
 		0079DE777CFC9E1A8200C7B9 /* CheckoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutModel.swift; sourceTree = "<group>"; };
 		061D691E36F05E0193D8B629 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ru.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C1A6662835EE1EC005E25B9 /* Pods_DolyameSDKUsageDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DolyameSDKUsageDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F5CF2DCADE13A035A866C05 /* ItemsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListPresenter.swift; sourceTree = "<group>"; };
 		3296BFB3E3A30D87370F0528 /* CheckoutPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutPresenter.swift; sourceTree = "<group>"; };
 		4D06ED8232AC1730968A96D5 /* CheckoutCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutCoordinator.swift; sourceTree = "<group>"; };
@@ -47,34 +48,33 @@
 		63E598B207C158124A6F33F8 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 		6805FF58A135CE844E2228C7 /* DolyameSDKUsageDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DolyameSDKUsageDemo.entitlements; sourceTree = "<group>"; };
 		6907BE8F52D44D9F8275CBC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		6CF7265E466E3929AE752FBC /* Pods_DolyameSDKUsageDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DolyameSDKUsageDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		720DB3A504F552FA9844F07D /* ModifiableParameterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiableParameterView.swift; sourceTree = "<group>"; };
 		8C2A8BC8E10982FD3062E541 /* CartCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCoordinator.swift; sourceTree = "<group>"; };
 		A6B49115B6A985212D788120 /* LaunchScreen.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = LaunchScreen.strings; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		B69B3CCA124D638DE871FDA1 /* ItemsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListCell.swift; sourceTree = "<group>"; };
 		B8FF02D3735108C98D32FED6 /* CheckoutViewIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewIO.swift; sourceTree = "<group>"; };
-		C016E67AB16F229C36B85370 /* Pods-DolyameSDKUsageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolyameSDKUsageDemo.debug.xcconfig"; path = "Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C1185F9B94A939CEF613FBEE /* SwitchParameterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchParameterView.swift; sourceTree = "<group>"; };
 		C307D091DE2F9ED6403002C4 /* DolyameSDKUsageDemo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DolyameSDKUsageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C446502B64370CB05783658A /* Pods-DolyameSDKUsageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolyameSDKUsageDemo.debug.xcconfig"; path = "Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D2AD4C337F4B239DC2CA88AF /* AddNewItemViewIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemViewIO.swift; sourceTree = "<group>"; };
 		D3B1F76518F4626C5DFA5277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D45C48BCD420ADE1C3E442D7 /* Pods-DolyameSDKUsageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolyameSDKUsageDemo.release.xcconfig"; path = "Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D9676BA495831E2C848B4DAA /* CheckoutItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutItemView.swift; sourceTree = "<group>"; };
 		DD35EC18D53416CFEAF5F0D8 /* ItemsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListViewController.swift; sourceTree = "<group>"; };
 		DF4D5EA35CDD39613CAAD704 /* AddNewItemPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemPresenter.swift; sourceTree = "<group>"; };
 		E08CE20AB5C0DB0DE3F5F396 /* AddNewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemViewController.swift; sourceTree = "<group>"; };
 		ED7F28F2E6C7B7077CE4699D /* ItemsListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListCoordinator.swift; sourceTree = "<group>"; };
 		EEE1583DD64DFE146DDE8F19 /* ItemsListViewIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListViewIO.swift; sourceTree = "<group>"; };
-		F378905D6FE7B95A1A1C5299 /* Pods-DolyameSDKUsageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolyameSDKUsageDemo.release.xcconfig"; path = "Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F6B695B0FC9ADCD38B669390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCDED52656C94A8B8192F7BB /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		79B1A32037A95B6C97A08FED /* Frameworks */ = {
+		150A844B381A104792539F68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				268CB5015D6316FFF02BC090 /* Pods_DolyameSDKUsageDemo.framework in Frameworks */,
+				1CA99A153DC477CC15871BDF /* Pods_DolyameSDKUsageDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,16 +105,6 @@
 				82ED342A4304B35E6F363073 /* Items */,
 			);
 			path = Workflows;
-			sourceTree = "<group>";
-		};
-		330076AFDC3334AB343729A1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C016E67AB16F229C36B85370 /* Pods-DolyameSDKUsageDemo.debug.xcconfig */,
-				F378905D6FE7B95A1A1C5299 /* Pods-DolyameSDKUsageDemo.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		3CBB709E1E056B6BE594716F /* ItemsList */ = {
@@ -164,8 +154,8 @@
 			children = (
 				04DD1DECF127DA84EEC147DB /* DolyameSDKUsageDemo */,
 				C817E5659C19FC9BF444AFB6 /* Products */,
-				330076AFDC3334AB343729A1 /* Pods */,
-				EB7BCBC93088EC481CF30877 /* Frameworks */,
+				B7423082F9F0BF0A22BE4464 /* Pods */,
+				85645E6C8C2753B2BD924FB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -176,6 +166,14 @@
 				3CBB709E1E056B6BE594716F /* ItemsList */,
 			);
 			path = Items;
+			sourceTree = "<group>";
+		};
+		85645E6C8C2753B2BD924FB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C1A6662835EE1EC005E25B9 /* Pods_DolyameSDKUsageDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8C2D09E7521867EFAD3E9919 /* Entitlements */ = {
@@ -223,20 +221,22 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		B7423082F9F0BF0A22BE4464 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C446502B64370CB05783658A /* Pods-DolyameSDKUsageDemo.debug.xcconfig */,
+				D45C48BCD420ADE1C3E442D7 /* Pods-DolyameSDKUsageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C817E5659C19FC9BF444AFB6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				C307D091DE2F9ED6403002C4 /* DolyameSDKUsageDemo.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EB7BCBC93088EC481CF30877 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6CF7265E466E3929AE752FBC /* Pods_DolyameSDKUsageDemo.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		EBB63638F6801D3AA0F99F75 /* Model */ = {
@@ -254,12 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F96489DB8EE7DCF29396BF9B /* Build configuration list for PBXNativeTarget "DolyameSDKUsageDemo" */;
 			buildPhases = (
-				EBEAD640FCAB8533D139035E /* [CP] Check Pods Manifest.lock */,
+				4A72A765656DF293193C8D82 /* [CP] Check Pods Manifest.lock */,
 				037A7F7F398479A0D5104C59 /* Sources */,
 				ABC3C398B3C9B05FB0DCF0C5 /* Resources */,
-				79B1A32037A95B6C97A08FED /* Frameworks */,
-				29D8DD2D480891C219D77233 /* [CP] Embed Pods Frameworks */,
-				A9BD85719CD67F6BAAF6B142 /* [CP] Copy Pods Resources */,
+				150A844B381A104792539F68 /* Frameworks */,
+				DA627276F971A9820BB1309B /* [CP] Embed Pods Frameworks */,
+				1AC170B87C5D81263D886E56 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -316,24 +316,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		29D8DD2D480891C219D77233 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A9BD85719CD67F6BAAF6B142 /* [CP] Copy Pods Resources */ = {
+		1AC170B87C5D81263D886E56 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -350,7 +333,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EBEAD640FCAB8533D139035E /* [CP] Check Pods Manifest.lock */ = {
+		4A72A765656DF293193C8D82 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,6 +353,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA627276F971A9820BB1309B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -409,13 +409,13 @@
 /* Begin XCBuildConfiguration section */
 		0CE0F01816981ED5BAE029CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F378905D6FE7B95A1A1C5299 /* Pods-DolyameSDKUsageDemo.release.xcconfig */;
+			baseConfigurationReference = D45C48BCD420ADE1C3E442D7 /* Pods-DolyameSDKUsageDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_ENTITLEMENTS = DolyameSDKUsageDemo/Entitlements/DolyameSDKUsageDemo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution: Tinkoff Bank (8SEFGGQX9M)";
-				CURRENT_PROJECT_VERSION = 1152;
+				CURRENT_PROJECT_VERSION = 1170;
 				DEVELOPMENT_TEAM = 8SEFGGQX9M;
 				INFOPLIST_FILE = DolyameSDKUsageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -495,13 +495,13 @@
 		};
 		DA33A8331457C6DB1CF7B36C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C016E67AB16F229C36B85370 /* Pods-DolyameSDKUsageDemo.debug.xcconfig */;
+			baseConfigurationReference = C446502B64370CB05783658A /* Pods-DolyameSDKUsageDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_ENTITLEMENTS = DolyameSDKUsageDemo/Entitlements/DolyameSDKUsageDemo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development: iOS Automation (32CR662BJU)";
-				CURRENT_PROJECT_VERSION = 1152;
+				CURRENT_PROJECT_VERSION = 1170;
 				DEVELOPMENT_TEAM = 8SEFGGQX9M;
 				INFOPLIST_FILE = DolyameSDKUsageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
