@@ -79,7 +79,8 @@ public class DolyamePaymentConfiguration {
     public let id: Swift.String
     public let notificationUrl: Swift.String?
     public let demoFlow: Swift.Bool
-    public init(id: Swift.String, notificationUrl: Swift.String?, demoFlow: Swift.Bool)
+    public let showErrorScreenDebugInformation: Swift.Bool
+    public init(id: Swift.String, notificationUrl: Swift.String?, demoFlow: Swift.Bool, showErrorScreenDebugInformation: Swift.Bool)
   }
   final public let partner: DolyameSDK.DolyamePaymentConfiguration.Partner
   final public let order: DolyameSDK.DolyamePaymentConfiguration.Order

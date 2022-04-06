@@ -1,6 +1,6 @@
 PODS:
   - Amplitude (8.5.0)
-  - DolyameSDK (1.0.3):
+  - DolyameSDK (1.0.4):
     - Amplitude (~> 8.5.0)
     - Insecurity (~> 3.0.3)
     - "Keyboard+LayoutGuide (~> 1.6.0)"
@@ -57,7 +57,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Amplitude: ef9ed339ddd33c9183edf63fa4bbaa86cf873321
-  DolyameSDK: 79a5c763c8c89665ac7dd20e9f13b383c47a10b7
+  DolyameSDK: c00e758234ad04e96e0523e66c3e175943cd6820
   Insecurity: 925fdebe70f8b8521e473ecba4c4318b7363b01c
   "Keyboard+LayoutGuide": db44b1764e2bb5d9824cc9cea9d9006cd4442045
   Kingfisher: 3ac0b75b155cabc0e544877d1a4deea29feece92

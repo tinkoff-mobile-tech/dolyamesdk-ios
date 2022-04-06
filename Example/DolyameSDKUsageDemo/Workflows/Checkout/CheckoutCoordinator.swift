@@ -49,7 +49,8 @@ class CheckoutCoordinator {
 
             let partner = DolyamePaymentConfiguration.Partner(id: "bnpl-test-app",
                                                               notificationUrl: model.notificationUrl,
-                                                              demoFlow: model.isDemoFlow)
+                                                              demoFlow: model.isDemoFlow,
+                                                              showErrorScreenDebugInformation: model.showErrorScreenDebugInformation)
 
             let dolyamePaymentConfig = DolyamePaymentConfiguration(partner: partner,
                                                                    order: orderData,
