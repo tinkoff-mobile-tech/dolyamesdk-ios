@@ -5,7 +5,6 @@
 //  Created by a.tonkhonoev on 29.11.2021.
 //
 
-import SnapKit
 import UIKit
 
 struct ItemsListCellObject {

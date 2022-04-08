@@ -1,37 +1,6 @@
 PODS:
-  - Amplitude (8.5.0)
-  - DolyameSDK (1.0.4):
-    - Amplitude (~> 8.5.0)
-    - Insecurity (~> 3.0.3)
-    - "Keyboard+LayoutGuide (~> 1.6.0)"
-    - Kingfisher (~> 7.2.0)
-    - KingfisherWebP (~> 1.4.0)
-    - SnapKit (~> 5.0.1)
-    - SwiftyJSON (~> 5.0.1)
-    - TinkoffASDKCore (~> 3.0.0-alpha7)
-    - TinkoffASDKUI (~> 3.0.0-alpha7)
-    - TPKeyboardAvoiding (~> 1.3.5)
-  - Insecurity (3.0.3)
-  - "Keyboard+LayoutGuide (1.6.0)"
-  - Kingfisher (7.2.0)
-  - KingfisherWebP (1.4.0):
-    - Kingfisher (~> 7.0)
-    - libwebp (>= 1.1.0)
-  - libwebp (1.2.1):
-    - libwebp/demux (= 1.2.1)
-    - libwebp/mux (= 1.2.1)
-    - libwebp/webp (= 1.2.1)
-  - libwebp/demux (1.2.1):
-    - libwebp/webp
-  - libwebp/mux (1.2.1):
-    - libwebp/demux
-  - libwebp/webp (1.2.1)
+  - DolyameSDK (1.0.5)
   - SnapKit (5.0.1)
-  - SwiftyJSON (5.0.1)
-  - TinkoffASDKCore (3.0.0-alpha7)
-  - TinkoffASDKUI (3.0.0-alpha7):
-    - TinkoffASDKCore (= 3.0.0-alpha7)
-  - TPKeyboardAvoiding (1.3.5)
 
 DEPENDENCIES:
   - DolyameSDK (from `../`)
@@ -39,35 +8,15 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - Amplitude
-    - Insecurity
-    - "Keyboard+LayoutGuide"
-    - Kingfisher
-    - KingfisherWebP
-    - libwebp
     - SnapKit
-    - SwiftyJSON
-    - TinkoffASDKCore
-    - TinkoffASDKUI
-    - TPKeyboardAvoiding
 
 EXTERNAL SOURCES:
   DolyameSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Amplitude: ef9ed339ddd33c9183edf63fa4bbaa86cf873321
-  DolyameSDK: c00e758234ad04e96e0523e66c3e175943cd6820
-  Insecurity: 925fdebe70f8b8521e473ecba4c4318b7363b01c
-  "Keyboard+LayoutGuide": db44b1764e2bb5d9824cc9cea9d9006cd4442045
-  Kingfisher: 3ac0b75b155cabc0e544877d1a4deea29feece92
-  KingfisherWebP: f4b76064c50a36c4cadd37548496ecebfdcb39e8
-  libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
+  DolyameSDK: 406f008f60542eda1eca596462f6827597593b7c
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
-  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
-  TinkoffASDKCore: a2bc3bee75e8a1b6d2f9f18f47312f5addb961b5
-  TinkoffASDKUI: 6a39d35b427c47321bdf7a722bdb5bfc6ec8b3f9
-  TPKeyboardAvoiding: d55b3ea7b362540af8fcf36aa3ed2e87bf210cc6
 
 PODFILE CHECKSUM: 687c560e5270108e27cfc4901d5294ec56a29c46
 

@@ -5,7 +5,6 @@
 //  Created by a.tonkhonoev on 02.12.2021.
 //
 
-import SnapKit
 import UIKit
 
 class SwitchParameterView: UIView {

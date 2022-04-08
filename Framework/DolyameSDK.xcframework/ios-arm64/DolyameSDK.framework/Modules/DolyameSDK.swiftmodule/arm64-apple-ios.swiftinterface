@@ -1,33 +1,32 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DolyameSDK
-import Amplitude
+import AVKit
+import Accelerate
 import QuartzCore.CAAnimation
 import QuartzCore.CAMediaTimingFunction
+import CarPlay
+import Combine
 import CommonCrypto
 import QuartzCore.CoreAnimation
 import CoreData
 import CoreGraphics
+import CoreImage
 import CoreTelephony
 import CryptoKit
 @_exported import DolyameSDK
 import Foundation
 import Foundation/*.Data*/
-import Insecurity
-import KeyboardLayoutGuide
-import Kingfisher
-import KingfisherWebP
+import ImageIO
 import LocalAuthentication
 import MachO
+import MobileCoreServices
 import PassKit
 import QuartzCore
-import SnapKit
+import Security
 import Swift
-import SwiftyJSON
+import SwiftUI
 import SystemConfiguration
-import TPKeyboardAvoiding
-import TinkoffASDKCore
-import TinkoffASDKUI
 import UIKit.UIColor
 import UIKit.UIFont
 import UIKit.UIGestureRecognizerSubclass
@@ -79,8 +78,7 @@ public class DolyamePaymentConfiguration {
     public let id: Swift.String
     public let notificationUrl: Swift.String?
     public let demoFlow: Swift.Bool
-    public let showErrorScreenDebugInformation: Swift.Bool
-    public init(id: Swift.String, notificationUrl: Swift.String?, demoFlow: Swift.Bool, showErrorScreenDebugInformation: Swift.Bool)
+    public init(id: Swift.String, notificationUrl: Swift.String?, demoFlow: Swift.Bool)
   }
   final public let partner: DolyameSDK.DolyamePaymentConfiguration.Partner
   final public let order: DolyameSDK.DolyamePaymentConfiguration.Order
@@ -117,6 +115,7 @@ public enum DolyameUnexpectedEvent {
     get
   }
 }
+infix operator |> : AdditionPrecedence
 extension Swift.String : DolyameSDK.ITextConvertable {
   public var rawValue: Swift.String {
     get

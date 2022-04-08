@@ -18,7 +18,6 @@ class CheckoutPresenter {
     let navigation = Navigation()
 
     var model: CheckoutModel = CheckoutModel(isDemoFlow: false,
-                                             showErrorScreenDebugInformation: true,
                                              notificationUrl: nil,
                                              orderId: UUID().uuidString,
                                              orderAmount: 4900,
@@ -53,7 +52,6 @@ class CheckoutPresenter {
 
     private func createInputData(model: CheckoutModel) -> CheckoutInputData {
         CheckoutInputData(isDemoFlow: model.isDemoFlow,
-                          showErrorScreenDebugInformation: model.showErrorScreenDebugInformation,
                           notificationUrl: model.notificationUrl,
                           orderId: model.orderId,
                           orderAmount: model.orderAmount,
@@ -71,7 +69,6 @@ class CheckoutPresenter {
     private func createModelWith(inputData: CheckoutInputData,
                                  orderItems: [CheckoutItemModel]) -> CheckoutModel {
         CheckoutModel(isDemoFlow: inputData.isDemoFlow,
-                      showErrorScreenDebugInformation: inputData.showErrorScreenDebugInformation,
                       notificationUrl: inputData.notificationUrl,
                       orderId: inputData.orderId,
                       orderAmount: inputData.orderAmount,

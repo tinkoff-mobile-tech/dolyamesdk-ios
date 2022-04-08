@@ -13,4 +13,3 @@
 FOUNDATION_EXPORT double DolyameSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char DolyameSDKVersionString[];
 
- 

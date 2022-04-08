@@ -1,5 +1,4 @@
 import DolyameSDK
-import SnapKit
 import UIKit
 
 class CheckoutViewController: UIViewController {
@@ -15,7 +14,6 @@ class CheckoutViewController: UIViewController {
     let payWithDolyameButton = DolyamePaymentButton()
 
     let demoFlowParamView = SwitchParameterView()
-    let showErrorScreenDebugInformationView = SwitchParameterView()
 
     let notificationUrlParamView = ModifiableParameterView()
 
@@ -103,7 +101,6 @@ class CheckoutViewController: UIViewController {
             let orderMcc = orderMcc,
             let clientInfoId = clientInfoId {
             let inputData = CheckoutInputData(isDemoFlow: demoFlowParamView.switcher.isOn,
-                                              showErrorScreenDebugInformation: showErrorScreenDebugInformationView.switcher.isOn,
                                               notificationUrl: notificationUrl,
                                               orderId: orderId,
                                               orderAmount: orderAmount,
@@ -178,10 +175,6 @@ class CheckoutViewController: UIViewController {
         stackView.addArrangedSubview(demoFlowParamView)
         demoFlowParamView.label.text = "Demo flow"
         demoFlowParamView.switcher.setOn(false, animated: false)
-
-        stackView.addArrangedSubview(showErrorScreenDebugInformationView)
-        showErrorScreenDebugInformationView.label.text = "Error Screen Debug Messages"
-        showErrorScreenDebugInformationView.switcher.setOn(true, animated: false)
 
         let partnerLabel = UILabel()
         partnerLabel.text = "Partner"

@@ -5,7 +5,6 @@
 //  Created by a.tonkhonoev on 28.11.2021.
 //
 
-import SnapKit
 import UIKit
 
 class ItemsListViewController: UIViewController {

@@ -223,6 +223,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
 @class NSCoder;
 
 SWIFT_CLASS("_TtC10DolyameSDK20DolyamePaymentButton")
@@ -275,6 +276,38 @@ SWIFT_CLASS("_TtC10DolyameSDK5LogMO")
 @property (nonatomic, copy) NSString * _Nullable thread;
 @property (nonatomic) double timestamp;
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -9,7 +9,6 @@ import Foundation
 
 struct CheckoutInputData {
     let isDemoFlow: Bool
-    let showErrorScreenDebugInformation: Bool
 
     let notificationUrl: String?
 
