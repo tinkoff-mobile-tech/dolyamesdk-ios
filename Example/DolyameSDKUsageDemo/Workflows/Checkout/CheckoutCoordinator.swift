@@ -102,6 +102,8 @@ extension DolyamePaymentCoordinatorResult {
             return "pending"
         case .success:
             return "success"
+        case .dismissed:
+            return "dismissed"
         }
     }
 }

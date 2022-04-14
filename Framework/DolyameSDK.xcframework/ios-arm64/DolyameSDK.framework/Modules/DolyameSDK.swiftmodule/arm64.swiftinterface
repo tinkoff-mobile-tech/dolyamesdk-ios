@@ -46,6 +46,9 @@ import zlib
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DolyamePaymentButton : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public var onButtonPressed: (() -> Swift.Void)?
   @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var intrinsicContentSize: CoreGraphics.CGSize {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
   @objc deinit
 }
 public class DolyamePaymentConfiguration {
@@ -90,6 +93,7 @@ public enum DolyamePaymentCoordinatorResult {
   case success
   case failure
   case pending
+  case dismissed
   public static func == (a: DolyameSDK.DolyamePaymentCoordinatorResult, b: DolyameSDK.DolyamePaymentCoordinatorResult) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {

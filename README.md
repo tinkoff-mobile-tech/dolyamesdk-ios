@@ -190,6 +190,7 @@ public enum DolyamePaymentCoordinatorResult {
     case success
     case failure
     case pending
+    case dismissed
 }
 
 public class DolyamePaymentCoordinator {
@@ -204,7 +205,8 @@ public class DolyamePaymentCoordinator {
 ---|---
 `success`|Пользователь прошел флоу и успешно совершил платеж
 `pending`|Пользователь прошел флоу и совершил платеж, но мы еще не получили подтверждение от эквайринга
-`failure`|Пользователь добровольно вышел из SDK не пройдя флоу, либо наткнулся на ошибку, отказ скоринга, проблемы с авторизацией или интернетом
+`failure`|Пользователь наткнулся на ошибку, отказ скоринга, проблемы с авторизацией или интернетом
+`dismissed`|Пользователь добровольно вышел из SDK, смахнул экраны или нажал на кнопку Закрыть
 
 ### Запуск координатора
 

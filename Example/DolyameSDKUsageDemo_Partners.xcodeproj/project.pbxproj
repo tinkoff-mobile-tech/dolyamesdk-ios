@@ -18,6 +18,7 @@
 		2AC46F37B2B7241F9B9F113F /* ItemsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35EC18D53416CFEAF5F0D8 /* ItemsListViewController.swift */; };
 		3CF3E689E494423F5FD3A59A /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C689D68E70E228898F28FB9 /* CartViewController.swift */; };
 		3FC9A0F1F968DEB29AD2F40C /* AddNewItemPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D5EA35CDD39613CAAD704 /* AddNewItemPresenter.swift */; };
+		5DFDC55962F6C3505A66B8AD /* Pods_DolyameSDKUsageDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD7338A3756AB59F1A9DED4 /* Pods_DolyameSDKUsageDemo.framework */; };
 		6B5347D72926141FC6F2F7CD /* ItemsListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7F28F2E6C7B7077CE4699D /* ItemsListCoordinator.swift */; };
 		7111E6B85F1536CB1A13AA3C /* CheckoutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296BFB3E3A30D87370F0528 /* CheckoutPresenter.swift */; };
 		7513D002F6F6A434D0892B42 /* CheckoutCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D06ED8232AC1730968A96D5 /* CheckoutCoordinator.swift */; };
@@ -32,20 +33,17 @@
 		D6276ADB80326CEF62689D65 /* InputValueValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8895B8B9283B8534CC78EB /* InputValueValidator.swift */; };
 		DC7B1DE8925E9720E7AA68EB /* CheckoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079DE777CFC9E1A8200C7B9 /* CheckoutModel.swift */; };
 		E073599CF4B49279A447BE71 /* ItemsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69B3CCA124D638DE871FDA1 /* ItemsListCell.swift */; };
-		E607CF1E76BE37FF31B3763F /* Pods_DolyameSDKUsageDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DD015E17D0EE05CDE82767 /* Pods_DolyameSDKUsageDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0079DE777CFC9E1A8200C7B9 /* CheckoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutModel.swift; sourceTree = "<group>"; };
 		061D691E36F05E0193D8B629 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ru.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		08650C8E94464DDBB549A0AC /* Pods-DolyameSDKUsageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolyameSDKUsageDemo.debug.xcconfig"; path = "Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		22CBBE542E6C426C5E5101C9 /* Pods-DolyameSDKUsageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolyameSDKUsageDemo.release.xcconfig"; path = "Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		264E732B331462F05B96A2BC /* Pods-DolyameSDKUsageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolyameSDKUsageDemo.release.xcconfig"; path = "Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo.release.xcconfig"; sourceTree = "<group>"; };
 		2F5CF2DCADE13A035A866C05 /* ItemsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListPresenter.swift; sourceTree = "<group>"; };
 		3296BFB3E3A30D87370F0528 /* CheckoutPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutPresenter.swift; sourceTree = "<group>"; };
 		4D06ED8232AC1730968A96D5 /* CheckoutCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutCoordinator.swift; sourceTree = "<group>"; };
 		4E2D2B7E40674F0226813AC7 /* AddNewItemCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemCoordinator.swift; sourceTree = "<group>"; };
 		4F8895B8B9283B8534CC78EB /* InputValueValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValueValidator.swift; sourceTree = "<group>"; };
-		58DD015E17D0EE05CDE82767 /* Pods_DolyameSDKUsageDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DolyameSDKUsageDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C689D68E70E228898F28FB9 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		63E598B207C158124A6F33F8 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 		6805FF58A135CE844E2228C7 /* DolyameSDKUsageDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DolyameSDKUsageDemo.entitlements; sourceTree = "<group>"; };
@@ -57,6 +55,8 @@
 		B8FF02D3735108C98D32FED6 /* CheckoutViewIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewIO.swift; sourceTree = "<group>"; };
 		C1185F9B94A939CEF613FBEE /* SwitchParameterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchParameterView.swift; sourceTree = "<group>"; };
 		C307D091DE2F9ED6403002C4 /* DolyameSDKUsageDemo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DolyameSDKUsageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA91DB0BDB698F82AA7FC104 /* Pods-DolyameSDKUsageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolyameSDKUsageDemo.debug.xcconfig"; path = "Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CFD7338A3756AB59F1A9DED4 /* Pods_DolyameSDKUsageDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DolyameSDKUsageDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AD4C337F4B239DC2CA88AF /* AddNewItemViewIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemViewIO.swift; sourceTree = "<group>"; };
 		D3B1F76518F4626C5DFA5277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9676BA495831E2C848B4DAA /* CheckoutItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutItemView.swift; sourceTree = "<group>"; };
@@ -70,11 +70,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7A304294DEE24BC426630A97 /* Frameworks */ = {
+		A989F9AAE05FD04BC795C663 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E607CF1E76BE37FF31B3763F /* Pods_DolyameSDKUsageDemo.framework in Frameworks */,
+				5DFDC55962F6C3505A66B8AD /* Pods_DolyameSDKUsageDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,14 +97,12 @@
 			path = DolyameSDKUsageDemo;
 			sourceTree = "<group>";
 		};
-		100893F199F976841D3292ED /* Pods */ = {
+		0E244F6E8B1F3067A3A35832 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				08650C8E94464DDBB549A0AC /* Pods-DolyameSDKUsageDemo.debug.xcconfig */,
-				22CBBE542E6C426C5E5101C9 /* Pods-DolyameSDKUsageDemo.release.xcconfig */,
+				CFD7338A3756AB59F1A9DED4 /* Pods_DolyameSDKUsageDemo.framework */,
 			);
-			name = Pods;
-			path = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		1C50BCEAEAAA740AB5590402 /* Workflows */ = {
@@ -159,21 +157,13 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		6F3E3964F28DA920296199E4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				58DD015E17D0EE05CDE82767 /* Pods_DolyameSDKUsageDemo.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		71183FA7C321199FFD973406 = {
 			isa = PBXGroup;
 			children = (
 				04DD1DECF127DA84EEC147DB /* DolyameSDKUsageDemo */,
 				C817E5659C19FC9BF444AFB6 /* Products */,
-				100893F199F976841D3292ED /* Pods */,
-				6F3E3964F28DA920296199E4 /* Frameworks */,
+				B9DFC911CB4A25DAA04F249A /* Pods */,
+				0E244F6E8B1F3067A3A35832 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -231,6 +221,16 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		B9DFC911CB4A25DAA04F249A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA91DB0BDB698F82AA7FC104 /* Pods-DolyameSDKUsageDemo.debug.xcconfig */,
+				264E732B331462F05B96A2BC /* Pods-DolyameSDKUsageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C817E5659C19FC9BF444AFB6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -254,12 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F96489DB8EE7DCF29396BF9B /* Build configuration list for PBXNativeTarget "DolyameSDKUsageDemo" */;
 			buildPhases = (
-				5E5DF3404A0DF4C24B84DCDA /* [CP] Check Pods Manifest.lock */,
+				E5A9FF9B5E0038313B41AFDF /* [CP] Check Pods Manifest.lock */,
 				037A7F7F398479A0D5104C59 /* Sources */,
 				ABC3C398B3C9B05FB0DCF0C5 /* Resources */,
-				7A304294DEE24BC426630A97 /* Frameworks */,
-				1E39727FF2D006256A0D78C4 /* [CP] Embed Pods Frameworks */,
-				62BCFAE2B779ACEF62F8C3BA /* [CP] Copy Pods Resources */,
+				A989F9AAE05FD04BC795C663 /* Frameworks */,
+				01AE2FAD8A56005585E97D7D /* [CP] Embed Pods Frameworks */,
+				C91237D798F1B8F26B62692E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -316,7 +316,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1E39727FF2D006256A0D78C4 /* [CP] Embed Pods Frameworks */ = {
+		01AE2FAD8A56005585E97D7D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -333,7 +333,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5E5DF3404A0DF4C24B84DCDA /* [CP] Check Pods Manifest.lock */ = {
+		C91237D798F1B8F26B62692E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5A9FF9B5E0038313B41AFDF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,23 +370,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		62BCFAE2B779ACEF62F8C3BA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DolyameSDKUsageDemo/Pods-DolyameSDKUsageDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -409,13 +409,13 @@
 /* Begin XCBuildConfiguration section */
 		0CE0F01816981ED5BAE029CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22CBBE542E6C426C5E5101C9 /* Pods-DolyameSDKUsageDemo.release.xcconfig */;
+			baseConfigurationReference = 264E732B331462F05B96A2BC /* Pods-DolyameSDKUsageDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_ENTITLEMENTS = DolyameSDKUsageDemo/Entitlements/DolyameSDKUsageDemo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution: Tinkoff Bank (8SEFGGQX9M)";
-				CURRENT_PROJECT_VERSION = 1236;
+				CURRENT_PROJECT_VERSION = 1274;
 				DEVELOPMENT_TEAM = 8SEFGGQX9M;
 				INFOPLIST_FILE = DolyameSDKUsageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -495,13 +495,13 @@
 		};
 		DA33A8331457C6DB1CF7B36C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08650C8E94464DDBB549A0AC /* Pods-DolyameSDKUsageDemo.debug.xcconfig */;
+			baseConfigurationReference = CA91DB0BDB698F82AA7FC104 /* Pods-DolyameSDKUsageDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_ENTITLEMENTS = DolyameSDKUsageDemo/Entitlements/DolyameSDKUsageDemo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development: iOS Automation (32CR662BJU)";
-				CURRENT_PROJECT_VERSION = 1236;
+				CURRENT_PROJECT_VERSION = 1274;
 				DEVELOPMENT_TEAM = 8SEFGGQX9M;
 				INFOPLIST_FILE = DolyameSDKUsageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
