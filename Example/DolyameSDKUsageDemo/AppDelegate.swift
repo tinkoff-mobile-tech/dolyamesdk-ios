@@ -14,6 +14,11 @@ import UIKit
         let appCoordinator = ApplicationCoordinator(hostWindow: window)
         self.appCoordinator = appCoordinator
 
+        UINavigationBar.appearance().prefersLargeTitles = true
+        UITableView.appearance().estimatedRowHeight = 0
+        UITableView.appearance().sectionHeaderHeight = 0
+        UITableView.appearance().estimatedSectionFooterHeight = 0
+
         appCoordinator.start()
 
         return true

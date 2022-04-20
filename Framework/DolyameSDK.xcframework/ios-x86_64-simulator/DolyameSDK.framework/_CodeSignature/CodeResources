@@ -46,15 +46,15 @@
 		</data>
 		<key>DolyameSDKImages.bundle/Assets.car</key>
 		<data>
-		inBlXIlb7SI4Um1T/hn9t84Uu7U=
+		FvRgpQHaw53lUVAprMZhbPA0Fbc=
 		</data>
 		<key>DolyameSDKImages.bundle/Info.plist</key>
 		<data>
-		g2GPDFQH/ht3XIdfZ0epHJ0crFY=
+		v6W25Peq8pnFveLQCyP09D9dDkU=
 		</data>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		7Sjjf2R2/axb+BqSTNi6LwF1Je4=
+		pKZMg920YjPpze+3SnqTZ2CZDNg=
 		</data>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		hQyd2iNASd7uKUYJ0P6gRBlQC4M=
+		XC9yYcm3syZVbpFqyESqlN3KxWM=
 		</data>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		7xP+v7cb2/gGpQT1QnDcAv8WUhs=
+		dhfhH9z3m1Ohl2GgyiMqEpDZoM8=
 		</data>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -178,11 +178,11 @@
 		</data>
 		<key>Headers/JuicyScoreAdapter.h</key>
 		<data>
-		zlDsoxh/FQGJX8e9HCOxqPwdXJ4=
+		yzQ18HJkX3sSpMx8vWjVpbAQ+GU=
 		</data>
 		<key>Headers/JuicyScoreAdapterFactory.h</key>
 		<data>
-		451DCKEtRLTAmQLSjePlhuou13M=
+		Z6WKvY+UvJ9ik8iKjdrhmgYXX+c=
 		</data>
 		<key>Headers/KingfisherWebP.h</key>
 		<data>
@@ -226,7 +226,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		v7YDpQpbIUxoKpd6aklMCM891XA=
+		sJEJRX3Z5XeW6i7gtUIxPUX5f4M=
 		</data>
 		<key>InpuCardtRequisitesTableViewCell.nib</key>
 		<data>
@@ -262,7 +262,7 @@
 		</data>
 		<key>Modules/DolyameSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UuEc/Ekbz5HB2i4LcsTHceXcx5c=
+		4Y5swPQ9X04+/LwnRUpW0I1mOGY=
 		</data>
 		<key>Modules/DolyameSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -274,7 +274,7 @@
 		</data>
 		<key>Modules/DolyameSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		UuEc/Ekbz5HB2i4LcsTHceXcx5c=
+		4Y5swPQ9X04+/LwnRUpW0I1mOGY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -390,15 +390,15 @@
 		</data>
 		<key>TCSCFImages.bundle/Assets.car</key>
 		<data>
-		4BtWq/Te8dzCaYu+j2gI+pFRnJY=
+		lScHJlHdnBNAwFulBXGFrkSHbXI=
 		</data>
 		<key>TCSCFImages.bundle/Info.plist</key>
 		<data>
-		W3ZFG4UydyqtLSyi7sdXPtzGkJw=
+		SvzT3Yh+J7Mn7j1bKc3wcgmrvNU=
 		</data>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		jOUTGyf0SG5Qww4ciXmQB7+Buhs=
+		+bc6+cvD7X5JCDZ7oK7sIu6LyQ4=
 		</data>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -406,11 +406,11 @@
 		</data>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		QVU1g2VQnKaySz9qul0yZ1oy2m0=
+		wdq3vYzQdTzczr5c12sV7Ax1NSA=
 		</data>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		ADsxbzXF0SIXxr8MVPgPRfRlui8=
+		nB9iv77Ct/X2iBCyo5tpw8HZE8w=
 		</data>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -466,7 +466,7 @@
 		</data>
 		<key>TDKFonts.bundle/Info.plist</key>
 		<data>
-		e4Xh9fpFQetUaT2AGiRHRHsf4ck=
+		1Fxj+42rrTqS7XQvamCfE3ALOmM=
 		</data>
 		<key>TDKFonts.bundle/SFProRounded-Bold.otf</key>
 		<data>
@@ -486,7 +486,7 @@
 		</data>
 		<key>TDKFonts.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		eJPfvsRzLQ4/LKMvKUFW/FoLQt0=
+		f502y/Z3OwpCHkO3SZ7Qe5PmsnQ=
 		</data>
 		<key>TDKFonts.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -494,7 +494,7 @@
 		</data>
 		<key>TDKFonts.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		nNngL550iUMkfUx7/4apNGcnF0A=
+		TcoUZmT8jfW5rvfTuSRCiv2+lls=
 		</data>
 		<key>TDKFonts.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -506,15 +506,15 @@
 		</data>
 		<key>TDKImages.bundle/Assets.car</key>
 		<data>
-		aOMf+CmpIz2ESCTVXTU0n1mqeOE=
+		/D7L4l8QMFwCL8umjkfev4pmI7M=
 		</data>
 		<key>TDKImages.bundle/Info.plist</key>
 		<data>
-		Kg501ks/qMQi/eujxRGhWKtHjSc=
+		aAJAMzU97WnbRwtiaPbgSuMN0A4=
 		</data>
 		<key>TDKImages.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		KCGUE0VR9UDzgb7qnH31DLve7/A=
+		LU0LBtpPwEJ+ryE0tD7v2nXw6eQ=
 		</data>
 		<key>TDKImages.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -522,11 +522,11 @@
 		</data>
 		<key>TDKImages.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		0C06JJO5E1DggW/d+SP92sWO+oM=
+		wIkUUPvOEkkutEmKYmi9Eyo8F8E=
 		</data>
 		<key>TDKImages.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		0w52X8eRVDDcYj+SWV11nLubPNU=
+		JUdjI+cvBfNHu1pZ3NV5E3SOkvc=
 		</data>
 		<key>TDKImages.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -534,15 +534,15 @@
 		</data>
 		<key>TSFImages.bundle/Assets.car</key>
 		<data>
-		S4BZrMNTlpoKrhnoh4thoSSDPlY=
+		6sLUa8sp+uWiILQE5xvaW/uSR7M=
 		</data>
 		<key>TSFImages.bundle/Info.plist</key>
 		<data>
-		cYiN5tMU//7IJJaxxYTf7soDRdg=
+		2WqaP5DrmryiGnYD+3y54NA8V7c=
 		</data>
 		<key>TSFImages.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		ZGFovlvMLbqs86q6T817VkLvhBc=
+		Zf9oZ923267U/geRPRgqTIeWuWw=
 		</data>
 		<key>TSFImages.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -550,11 +550,11 @@
 		</data>
 		<key>TSFImages.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		KBlEENfHRFUxBtGz3e7iO1WuyIU=
+		71avq37vtVX9QTkDbXooNFX5v5g=
 		</data>
 		<key>TSFImages.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		ewYqS33Nm7UCGKuEviQBJdu3BMM=
+		9WEQuDDXDxffRnKfDpQJYG40fQs=
 		</data>
 		<key>TSFImages.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -566,15 +566,15 @@
 		</data>
 		<key>TinkoffASDKUIResources.bundle/Assets.car</key>
 		<data>
-		NIO19/NYMwPoJOIWrhx+ppGdyyc=
+		c7XE0RdNXYdpFjNOYoSYgPLg2Zg=
 		</data>
 		<key>TinkoffASDKUIResources.bundle/Info.plist</key>
 		<data>
-		0ucYcHFRTWooSHJgveYcYyTr1J4=
+		Sp/nQchKn+3lTA4vEiVbg95Pan4=
 		</data>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		9n3HEcFhdpLk6VIeRjq9sGL+H10=
+		yLjg9H8kmSoA0tsd1Fj8eT7ww94=
 		</data>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -582,11 +582,11 @@
 		</data>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		3jCHIxmwnqP1H1ohK519frsAEBk=
+		4jIEUSu2iALtcGvSUFprk/6e/ic=
 		</data>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		l55xQb6GMGS7w/Vz1aaSVUINcjs=
+		pSTKJAKiqJ9ATyuLDnFi+4AA0GU=
 		</data>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -717,21 +717,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y3uZQ3LcnAFrECmX4EC1V5BSqrz87N3H7WIbWMm3lk0=
+			3LDBAvpdFRkdL/EKt5bFQN760wYM3IRe7I1tb4IXYVM=
 			</data>
 		</dict>
 		<key>DolyameSDKImages.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oAf3JoJNJnQYgTj8R3mw7Y7tuftAPQ/36QUjH8smkhw=
+			uQZE6EzLA6B973lWOvtEwoByN376cDRHv9/q//UTd28=
 			</data>
 		</dict>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2VoA+Zoyd5febMbfpaLJQY/HM2/GqE4hWG1AM7L25ug=
+			kyMK/pEQRCd1QZFEvswCo4US3IQ6tHibn7tVHptKPH8=
 			</data>
 		</dict>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeRequirements</key>
@@ -745,14 +745,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			beIvWtAebSXqkjVAprMatB66pDs53XjICRrqf84nsZo=
+			Kgwjubo48T2VvvTsv5IppCtnZ0l2HDhCXUcCd2u0bAc=
 			</data>
 		</dict>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hg5p5qv3c1b4U4gQBcpi9G8nLKKw2/GABvrt/SoavmI=
+			bevBEzYGXTyenRzl3ll9107BnT/ertYYb6J9WPhZ5Us=
 			</data>
 		</dict>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeSignature</key>
@@ -948,14 +948,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			59KOxXEMfq/CyUuQSwTXS3Nf/oyLB53WBe4XGVuthmI=
+			XI/8fljB3U0ubOVyE4X8e75Rsawty82w0ysskyc/iW0=
 			</data>
 		</dict>
 		<key>Headers/JuicyScoreAdapterFactory.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8G3fcyIQCOgPOHZ5Aihi9exv/6OrxR4tGJ4pthsoH7Q=
+			aBWo2Oj1tW9Gakk+vDaAVO0EjQ3ldjaj2roan2XEm1E=
 			</data>
 		</dict>
 		<key>Headers/KingfisherWebP.h</key>
@@ -1088,7 +1088,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nt3BmUKHHgjqoTOA6iG4VOLjbSsDrpMh031IZxadBrI=
+			UFTh0/XIzey8JW4oZGRpiHafyDADseUR+xS2maVPwLs=
 			</data>
 		</dict>
 		<key>Modules/DolyameSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -1109,7 +1109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nt3BmUKHHgjqoTOA6iG4VOLjbSsDrpMh031IZxadBrI=
+			UFTh0/XIzey8JW4oZGRpiHafyDADseUR+xS2maVPwLs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1312,21 +1312,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gNrMVSzcCmdMguIoRlUC//f8ZxllnrRi48lZqCUOLl8=
+			zUyWWCP9H7mqOA4BViTyGhtV0qUYqoQkElKGl9oMvpM=
 			</data>
 		</dict>
 		<key>TCSCFImages.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o7UHnFf83DKnEDvUVi0ZK2/TSmtXN2UipF4Xu3etmhA=
+			hKu+fMVMoek6DpaFRKsws2KmXY2Eh0Qjq34ur52dusA=
 			</data>
 		</dict>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nE3W7wQfqw6MhUiDpLWpHvh8xQquyvG+G20p7+lcybg=
+			D/J+GUMtaoebUBhdPXIQGurF3SIGLwVuR/vYuU8nKyY=
 			</data>
 		</dict>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeRequirements</key>
@@ -1340,14 +1340,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UF6hp4at5p8g1zZR2Z7FV7p57w2bfh4yqtWCGl9RrcM=
+			CbONXh5zOVCBzHMxFmjfjEnmgmOneyaKRM65tFQRAVY=
 			</data>
 		</dict>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1fOWjURvm3WbTi6LX2lA2q1FEhydR8xARmFeWWIQW5Y=
+			C0IEm4Tu/iNqnoL5tFTrTdw9BZJD4KW18dQE+8aredw=
 			</data>
 		</dict>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeSignature</key>
@@ -1445,7 +1445,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fvPq3Vnrjpr3MrAk0tX4hZbyFuOgwdoGtMMi/x0LIjo=
+			IfN74wm1KQDxlL2uwxEV4oyoe4//A1XpG5m37fZ8P7Q=
 			</data>
 		</dict>
 		<key>TDKFonts.bundle/SFProRounded-Bold.otf</key>
@@ -1480,7 +1480,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mMuFiyeQ88xGHONRDngXVnwAwu1OBUIu2FqXHRvEA0c=
+			JQ+BEoFt4lCTPzRBUu2zptHLx5kKg3rlBXJCbu+blEY=
 			</data>
 		</dict>
 		<key>TDKFonts.bundle/_CodeSignature/CodeRequirements</key>
@@ -1494,7 +1494,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k7n5GzbRxtW9Zdr3dSY/6JlbUPDKA9EkXtK0RhlNbwU=
+			5Q4SNtaig4Sx8zprY4SRHQwvLWzm/H1XY0jOzN7Sm4A=
 			</data>
 		</dict>
 		<key>TDKFonts.bundle/_CodeSignature/CodeResources</key>
@@ -1515,21 +1515,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RDaQVSdb9uguQjgZIDSZPdmtsZOQhkD1uVOvdJnHra4=
+			z5GM5HoRfmlkc7TXuhweFAhNNE0m16Avon4LwJrsnts=
 			</data>
 		</dict>
 		<key>TDKImages.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0DyRuc/h6yz7c07p5efV5VMfOnYuTHdvNpgUWMPdVh8=
+			fLYW9PFiF4HSZLCSJ4eyM4AGeNvDV5XazKT0V6XfN0M=
 			</data>
 		</dict>
 		<key>TDKImages.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			erL422YZrZR+9xuIwX6ORLxQuFUH5i3GPzbHCP38Q/0=
+			XiG2VOPDKEG5zZ0MytHaw4f7uncvk4w5HRHojaiHxe8=
 			</data>
 		</dict>
 		<key>TDKImages.bundle/_CodeSignature/CodeRequirements</key>
@@ -1543,14 +1543,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W0gHuMm3FXIr+QIXLkw83/+o7W2N07Fi0TLlnlkUqFw=
+			kFDYLyWVavMUrChxT+Abg4nhHqWXPRZNzut3rcOViz8=
 			</data>
 		</dict>
 		<key>TDKImages.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CL8n1ntwUpKayzj++aTCt7nAUV7muB8WCl7t+yhF0Wg=
+			oT6HMsIhScgI43oRxe2ty4P8IjdIxxohAF5nCdvlQkU=
 			</data>
 		</dict>
 		<key>TDKImages.bundle/_CodeSignature/CodeSignature</key>
@@ -1564,21 +1564,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DGT4Nqh4r+/lnIAG+hxRvT6fJcEi9J7MTunGj64tgLc=
+			WubVms1YZcVhgNDTqw4Lb/+R3988MRieyI0Wm4pe+Hw=
 			</data>
 		</dict>
 		<key>TSFImages.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bS1ZItG47iSlHc7P3wcdSkmEBQMjijRkr6dMiz6RtNw=
+			SyGMaCYxBoFNSZewOCr27S14+TzmjC1hoJwAmi2Ijhc=
 			</data>
 		</dict>
 		<key>TSFImages.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q2deZ25HN37nWkoggZlRolEP3XpfyXU3WZwT4ySVvvQ=
+			fmfnI6VrKDM+Fw7XAp8y3N48Q541U0e6pKaK6ziCf7s=
 			</data>
 		</dict>
 		<key>TSFImages.bundle/_CodeSignature/CodeRequirements</key>
@@ -1592,14 +1592,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0q7x+aKhMSGSeHqHcL+WeGwXjTgKzrUAxyP+tdQiSXc=
+			XrzTWWMtZz1Z7CU5C4DU0H97Qub1WVzzwXX/shYaZ1I=
 			</data>
 		</dict>
 		<key>TSFImages.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C/y0k5ry9KCjWcpTm/WvcYAfChMLbI691lGk/e4R5m0=
+			/u55OjzA80cYV1orVkvXUOxmRZiciIZpFGqV+JPOvDQ=
 			</data>
 		</dict>
 		<key>TSFImages.bundle/_CodeSignature/CodeSignature</key>
@@ -1620,21 +1620,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4MPgUR15msldKDgY8X5nFN26BuU7ZxzQFvw5wyrYsOQ=
+			0qMk6RE7+F5GTbzce5I04g2Fz3enOpgsUFPJuvw9TU0=
 			</data>
 		</dict>
 		<key>TinkoffASDKUIResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aUE1XZGidjaghYIXE4eZp6u8ZSCJwtj7BxtNJuvmrAE=
+			yXQ/PVHiLRXo8NnSsjebvaHWP54iyCcNNnk03X29KVA=
 			</data>
 		</dict>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XM3OCmHY9MtiaU/1Ec3q2zvnQ9av/0N44M5OKvjVhAc=
+			bq60u8+nQje8Rl0V55VTNv8UHTxZuEuBv3eB0x0TuQY=
 			</data>
 		</dict>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -1648,14 +1648,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aRBucI54I+H7ydsauN5iHWj/sLhLYtH6AJ0e1iXlJrs=
+			HdUeJCRlFHBJ+I3N40qmlOw7igxa1DzGKrv0W5ms6hE=
 			</data>
 		</dict>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B3mIK6hUo1AXTc0v2ro7ASGUzGw4YZc2Xn5Y9KVaGyo=
+			FN14YDrMN4Q2vTP5+Rfz/ENiV54nLR8nNiZ8Nk+hIq8=
 			</data>
 		</dict>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeSignature</key>
