@@ -215,6 +215,7 @@ class CheckoutViewController: UIViewController {
         stackView.addArrangedSubview(clientInfoEmailParamView)
         clientInfoEmailParamView.label.text = "client_info.email"
 
+        payWithDolyameButton.applyStyle(.sharpCorners)
         view.addSubview(payWithDolyameButton)
         payWithDolyameButton.snp.makeConstraints { make in
             make.top.equalTo(scrollView.snp.bottom)

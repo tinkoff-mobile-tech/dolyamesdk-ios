@@ -49,6 +49,16 @@ import zlib
   @_Concurrency.MainActor(unsafe) @objc override dynamic public var intrinsicContentSize: CoreGraphics.CGSize {
     @_Concurrency.MainActor(unsafe) @objc get
   }
+  public enum Style {
+    case roundedCorners
+    case sharpCorners
+    public static func == (a: DolyameSDK.DolyamePaymentButton.Style, b: DolyameSDK.DolyamePaymentButton.Style) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) public func applyStyle(_ style: DolyameSDK.DolyamePaymentButton.Style)
   @objc deinit
 }
 public class DolyamePaymentConfiguration {
@@ -237,6 +247,8 @@ extension DolyameSDK.LogMO {
     @objc set
   }
 }
+extension DolyameSDK.DolyamePaymentButton.Style : Swift.Equatable {}
+extension DolyameSDK.DolyamePaymentButton.Style : Swift.Hashable {}
 extension DolyameSDK.DolyamePaymentCoordinatorResult : Swift.Equatable {}
 extension DolyameSDK.DolyamePaymentCoordinatorResult : Swift.Hashable {}
 extension DolyameSDK.DolyameUnexpectedEvent : Swift.Equatable {}
