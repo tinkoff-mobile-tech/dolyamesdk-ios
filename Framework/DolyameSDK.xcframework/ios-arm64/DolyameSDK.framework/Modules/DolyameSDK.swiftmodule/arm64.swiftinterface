@@ -135,21 +135,18 @@ extension Swift.String : DolyameSDK.ITextConvertable {
     get
   }
   public init(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
 }
 extension Foundation.Date : DolyameSDK.ITextConvertable {
   public var rawValue: Swift.String {
     get
   }
   public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
 }
 extension Swift.Double : DolyameSDK.ITextConvertable {
   public var rawValue: Swift.String {
     get
   }
   public init(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
 }
 extension DolyameSDK.ITextConvertable where Self : Swift.CustomStringConvertible {
   public var rawValue: Swift.String {
@@ -158,10 +155,11 @@ extension DolyameSDK.ITextConvertable where Self : Swift.CustomStringConvertible
 }
 extension Foundation.Decimal : DolyameSDK.ITextConvertable {
   public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
 }
-public protocol ITextConvertable : Swift.RawRepresentable where Self.RawValue == Swift.String {
+public protocol ITextConvertable {
   var rawInitializationAvalibale: Swift.Bool { get }
+  var rawValue: Swift.String { get }
+  init?(rawValue: Swift.String)
 }
 extension DolyameSDK.ITextConvertable {
   public var rawInitializationAvalibale: Swift.Bool {

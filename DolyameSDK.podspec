@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'DolyameSDK'
   s.summary          = 'Dolyame SDK for iOS'
 
-  s.version          = '1.0.9'
+  s.version          = '1.0.10'
 
   s.authors = {
     'Isaac Weisberg' => 'a.vaysberg@tinkoff.ru',
