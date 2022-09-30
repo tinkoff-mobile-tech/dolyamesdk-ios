@@ -12,15 +12,21 @@
 ## Установка SDK
 ### Установка через CocoaPods
 
+Начиная с версии 1.0.11, выключена поддержка bitcode.
+
 Добавьте в Podfile:
 ```ruby
 pod 'DolyameSDK'
 ```
 
 ### Установка через Carthage
+
+Начиная с версии 1.0.11, выключена поддержка bitcode.
+
 Добавьте в Cartfile:
 ```
 binary "https://raw.githubusercontent.com/Tinkoff/dolyamesdk-ios/main/DolyameSDK.json"
+binary "https://raw.githubusercontent.com/Tinkoff/dolyamesdk-ios/main/JuicyScoreCarthageSpec.json"
 ```
 
 Затем вызовите
@@ -28,7 +34,12 @@ binary "https://raw.githubusercontent.com/Tinkoff/dolyamesdk-ios/main/DolyameSDK
 carthage bootstrap --use-xcframeworks
 ```
 
-Затем добавьте `./Carthage/Build/DolyameSDK.xcframework` в `Frameworks, Libraries and Embedded Content` своего таргета приложения.
+Затем добавьте:
+
+- `./Carthage/Build/DolyameSDK.xcframework`
+- `./Carthage/Build/JuicyScoreFramework.xcframework` 
+
+в `Frameworks, Libraries and Embedded Content` своего таргета приложения.
 
 ## Подготовительные работы на вашем бэкенде
 

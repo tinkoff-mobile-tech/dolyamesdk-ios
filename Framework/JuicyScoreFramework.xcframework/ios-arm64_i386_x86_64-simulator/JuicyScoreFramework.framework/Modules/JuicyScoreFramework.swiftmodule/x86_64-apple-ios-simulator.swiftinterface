@@ -1,0 +1,98 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name JuicyScoreFramework
+import CallKit
+import CoreTelephony
+import Darwin
+import Foundation
+@_exported import JuicyScoreFramework
+import MachO
+import Swift
+import UIKit
+import _Concurrency
+@_inheritsConvenienceInitializers @objc public class TelephonyNetworkInfo : ObjectiveC.NSObject {
+  @available(iOS 12.0, *)
+  @objc public static func getTelephonyNetworkInfo() -> Swift.String?
+  @available(iOS 10.0, *)
+  @objc public static func getActiveCallsInfo() -> Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class IntegrationAnalyzer : ObjectiveC.NSObject {
+  @objc public static let shared: JuicyScoreFramework.IntegrationAnalyzer
+  @objc public func analyze(customBundle: Foundation.Bundle? = nil)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class JuicyEmulatorChecker : ObjectiveC.NSObject {
+  @objc public static func isRunInEmulator() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum Hosts : Swift.Int, Swift.RawRepresentable {
+  case prod
+  case test
+  case jcsc
+  public typealias RawValue = Swift.String
+  public var rawValue: JuicyScoreFramework.Hosts.RawValue {
+    get
+  }
+  public init?(rawValue: JuicyScoreFramework.Hosts.RawValue)
+}
+@objc public enum MBHtml : Swift.Int, Swift.RawRepresentable {
+  case prod
+  case test
+  case jcsc
+  public typealias RawValue = Swift.String
+  public var rawValue: JuicyScoreFramework.MBHtml.RawValue {
+    get
+  }
+  public init?(rawValue: JuicyScoreFramework.MBHtml.RawValue)
+}
+@objc public enum Domain : Swift.Int, Swift.RawRepresentable {
+  case was
+  case mum
+  case sin
+  case ams
+  case spb
+  public typealias RawValue = Swift.String
+  public var rawValue: JuicyScoreFramework.Domain.RawValue {
+    get
+  }
+  public init?(rawValue: JuicyScoreFramework.Domain.RawValue)
+}
+@_inheritsConvenienceInitializers @objc public class JuicyEnvironment : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum JailbreakCheck : Swift.CaseIterable {
+  case urlSchemes
+  case existenceOfSuspiciousFiles
+  case suspiciousFilesCanBeOpened
+  case restrictedDirectoriesWriteable
+  case fork
+  case symbolicLinks
+  case dyld
+  public static func == (a: JuicyScoreFramework.JailbreakCheck, b: JuicyScoreFramework.JailbreakCheck) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias AllCases = [JuicyScoreFramework.JailbreakCheck]
+  public static var allCases: [JuicyScoreFramework.JailbreakCheck] {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class JuicyJailbreakChecker : ObjectiveC.NSObject {
+  @objc public static func isDeviceJailbroken() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension JuicyScoreFramework.Hosts : Swift.Equatable {}
+extension JuicyScoreFramework.Hosts : Swift.Hashable {}
+extension JuicyScoreFramework.MBHtml : Swift.Equatable {}
+extension JuicyScoreFramework.MBHtml : Swift.Hashable {}
+extension JuicyScoreFramework.Domain : Swift.Equatable {}
+extension JuicyScoreFramework.Domain : Swift.Hashable {}
+extension JuicyScoreFramework.JailbreakCheck : Swift.Equatable {}
+extension JuicyScoreFramework.JailbreakCheck : Swift.Hashable {}

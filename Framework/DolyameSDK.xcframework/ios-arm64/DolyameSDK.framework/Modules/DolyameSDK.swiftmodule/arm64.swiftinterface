@@ -18,6 +18,7 @@ import CryptoKit
 import Foundation
 import Foundation/*.Data*/
 import ImageIO
+import JuicyScoreFramework
 import LocalAuthentication
 import MachO
 import MobileCoreServices

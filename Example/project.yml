@@ -1,6 +1,7 @@
 name: DolyameSDKUsageDemo_Partners
 settings:
   DEVELOPMENT_TEAM: Z8MAVG5W47
+  ENABLE_BITCODE: NO
 
 targets:
   DolyameSDKUsageDemo:
