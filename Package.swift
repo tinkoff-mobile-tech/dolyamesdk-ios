@@ -8,9 +8,8 @@ let package = Package(
     products: [
         .library(
             name: "DolyameSDK",
-            targets: ["DolyameSDK", "JuicyScoreFramework"])
+            targets: ["DolyameSDK"])
     ],
     targets: [
-        .binaryTarget(name: "DolyameSDK", path: "./Framework/DolyameSDK.xcframework"),
-        .binaryTarget(name: "JuicyScoreFramework", path: "./Framework/JuicyScoreFramework.xcframework")
+        .binaryTarget(name: "DolyameSDK", path: "./Framework/DolyameSDK.xcframework")
     ])
