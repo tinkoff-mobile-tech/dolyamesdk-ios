@@ -19,18 +19,6 @@
 pod 'DolyameSDK'
 ```
 
-### Установка через Swift Package Manager
-
-Добавьте в `Package.json`:
-```swift
-.package(url: "https://github.com/Tinkoff/dolyamesdk-ios.git", .exact("1.0.13"))
-```
-
-Либо в Xcode:
-- Add Packages...
-- Enter Package URL
-- ввести туда `https://github.com/Tinkoff/dolyamesdk-ios.git`
-
 ### Установка через Carthage
 
 Добавьте в Cartfile:
