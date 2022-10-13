@@ -6,7 +6,7 @@
 	<dict>
 		<key>AcquiringAlertViewController.nib</key>
 		<data>
-		saeY4ut2rPJyr0BtPFDGOAhgOI8=
+		b26J1EB3GvxSU2P4Ee7DLm0eIdY=
 		</data>
 		<key>AcquiringPaymentViewController.nib</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>AddCardTableViewCell.nib</key>
 		<data>
-		YMByo/xT3N/D3yW18dsc24cAuMw=
+		qnyqoFjDux5v+ooqaawA2jDLkhs=
 		</data>
 		<key>AmountTableViewCell.nib</key>
 		<data>
-		28Eqn+PvWf9ckYdZOe+Wl2te3pY=
+		yDp/hMRqhik8i5WGwXkuDWQiOXw=
 		</data>
 		<key>ButtonInputAccessoryView.nib</key>
 		<data>
-		FSjWAbWGoi+RyxuWy9120DQBPww=
+		GJYeDMgE6A1LIEhXkMfBRugzX0w=
 		</data>
 		<key>ButtonTableViewCell.nib</key>
 		<data>
-		mxk1iXzRvGHQdCuPUsVHuPkHQSo=
+		gaiB5h36oeQ1Md4G+MMVk0DzMmo=
 		</data>
 		<key>CardListStatusCollectionViewCell.nib/objects-12.3+.nib</key>
 		<data>
-		BzF8In0EZeaRTCF2IY3/J/LmKc0=
+		Vkw1IH0p0WKsVq7i/bQVj56ojh4=
 		</data>
 		<key>CardListStatusCollectionViewCell.nib/runtime.nib</key>
 		<data>
-		I6BW9t8Jv5P5S47dvLODMV+Hhe4=
+		4e27K0NU8ZwI5WmgO2vRxOIalA8=
 		</data>
 		<key>CardsViewController.nib</key>
 		<data>
@@ -46,15 +46,15 @@
 		</data>
 		<key>DolyameSDKImages.bundle/Assets.car</key>
 		<data>
-		gAhfJqJQPg99LcnqzcwnwkvTNfw=
+		qhqikNPwatslafGJ1NeSvWfC+fU=
 		</data>
 		<key>DolyameSDKImages.bundle/Info.plist</key>
 		<data>
-		A7Nn/CrDXNNBRvnCnOqG7+hpxWo=
+		h0Zlc+kAlggW7r+bHq+V/waXjGc=
 		</data>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		GCEoNTkzynpEEh1OnLwiyv5ptaY=
+		CszT2HtG71eFHGCEd/UIklVGZF4=
 		</data>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		VbrVWPH9eM6qgxpNHBB87CkYCBo=
+		fuwasaqx8SspD2BmPyo15K651+Y=
 		</data>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		ItO3xxfyOmpDwVtT7gn85rv8CJo=
+		DcHhvNMJNAYuSveQ4XaWhxMTUw0=
 		</data>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Events.momd/Events.mom</key>
 		<data>
-		t6y5VImjMNm5BU1Fg/KJXlcQnVI=
+		Hn55rynOmgFNcd5K/ayqG4lYa50=
 		</data>
 		<key>Events.momd/VersionInfo.plist</key>
 		<data>
@@ -154,7 +154,7 @@
 		</data>
 		<key>Headers/DolyameSDK-Swift.h</key>
 		<data>
-		a6ZQJ9Ixj2vs5ZsW2Kbg0Yz68UM=
+		PPZNQGMbaKSyUt6jwyod4q4Az78=
 		</data>
 		<key>Headers/DolyameSDK-umbrella.h</key>
 		<data>
@@ -218,15 +218,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jjJuxduA4INHzsxReq+BVNEQcXA=
+		ijGd84s7OYG7/sJqLcigq4rU8MA=
 		</data>
 		<key>InpuCardtRequisitesTableViewCell.nib</key>
 		<data>
-		ZnjK8Ghu1U+a6T607iflx8Vp1No=
+		6IbI8INmhlFWpIqiruwY6QuBg3I=
 		</data>
 		<key>LabelTableViewCell.nib</key>
 		<data>
-		WHG8WEihgr5H/qucI6BwWhkrsqM=
+		sbjFD8+GEmTy1I1zdAb1VQJokzg=
 		</data>
 		<key>LoadingCollectionViewCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -246,27 +246,15 @@
 		</data>
 		<key>Modules/DolyameSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		64joA0WWI13GgbwbGF/yxm+IkEQ=
+		aOqBwZg3IWZB7lAD8O1tK0BtUHo=
 		</data>
 		<key>Modules/DolyameSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Xmstg3CClVRVHGSY8esl658Hhyw=
+		2ftWvgrr9Q+9BTLLxu9EZgnQHQI=
 		</data>
 		<key>Modules/DolyameSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1/ZzUQD8ft/WVGdaGRrRQZ4dVl4=
-		</data>
-		<key>Modules/DolyameSDK.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		64joA0WWI13GgbwbGF/yxm+IkEQ=
-		</data>
-		<key>Modules/DolyameSDK.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		Xmstg3CClVRVHGSY8esl658Hhyw=
-		</data>
-		<key>Modules/DolyameSDK.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		1/ZzUQD8ft/WVGdaGRrRQZ4dVl4=
+		xXMTGEkPgoYkP1YdG/m4q1+aKzg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -278,39 +266,39 @@
 		</data>
 		<key>PageStatusCollectionViewCell.nib/objects-12.3+.nib</key>
 		<data>
-		eMXse353AAVMKbRW+PHfUvbFzL0=
+		zlG14cyiTO8UiYUrCpBOboSI7C0=
 		</data>
 		<key>PageStatusCollectionViewCell.nib/runtime.nib</key>
 		<data>
-		8BQnBNBtEyZHB++Eg2a2AxrpGLw=
+		EOZ1LCZtzjLIIVtrruE2Fg3Ib3Y=
 		</data>
 		<key>PageStatusListCollectionViewCell.nib/objects-12.3+.nib</key>
 		<data>
-		thT8Va0VV6L+a0u9pKLAXzTLGlU=
+		Ww2ezud7rhztLZmfBqRfAVx0Szw=
 		</data>
 		<key>PageStatusListCollectionViewCell.nib/runtime.nib</key>
 		<data>
-		AhDC6zIuiZwDacMyJa9ENdE6lso=
+		UgMcYbtOIQ/TDFjIYKN86kRnQ58=
 		</data>
 		<key>PaymentCardCollectionViewCell.nib/objects-12.3+.nib</key>
 		<data>
-		NyTGD3FW8jeGPp/kvRd9q53mY60=
+		1lrGzvhgqeNpAgx5xIG150YzOns=
 		</data>
 		<key>PaymentCardCollectionViewCell.nib/runtime.nib</key>
 		<data>
-		tsp5uVfHcLVWxFdccXEDaSJxIdk=
+		awx4njPHYFxVjemGAlSlpp3b/Mw=
 		</data>
 		<key>PaymentCardInputRequisitesCollectionViewCell.nib/objects-12.3+.nib</key>
 		<data>
-		6c3uBS6RLXu+4zJRk7MABvaUBXo=
+		qzd4aNe/PxYWtL3SiluJW0Ckfvo=
 		</data>
 		<key>PaymentCardInputRequisitesCollectionViewCell.nib/runtime.nib</key>
 		<data>
-		e1x6Nx7qtWJ9s4FHAE8lKTX+B7c=
+		SEghzeyxZvK6YQ9+W7V7c/oUNi0=
 		</data>
 		<key>PaymentCardTableViewCell.nib</key>
 		<data>
-		3M2P+jA9DqYHbgYZUHPs7epxcWo=
+		y7LkoRKzydalUhjRwWxXUCHqSfs=
 		</data>
 		<key>PopUpViewContoller.nib</key>
 		<data>
@@ -318,7 +306,7 @@
 		</data>
 		<key>PosterView.nib</key>
 		<data>
-		3otAyXkUSISDqbag/8wrqICC8xM=
+		JQwLq0KtCZBwo+EaUcIapql2MiM=
 		</data>
 		<key>QRCodeImageTableViewCell.nib</key>
 		<data>
@@ -330,7 +318,7 @@
 		</data>
 		<key>QRCodeWebTableViewCell.nib</key>
 		<data>
-		iJWtde2AuEpTSYjlq16JdPRE23w=
+		2k2tJh/j91RAsEtC09zy9kPA6dI=
 		</data>
 		<key>RandomAmounCheckingViewController.nib</key>
 		<data>
@@ -350,7 +338,7 @@
 		</data>
 		<key>Sage.momd/Sage.mom</key>
 		<data>
-		NdfgWmXRhB/mBP9MthMi7SWrwXo=
+		Hjn7AUEqJp0w+SQ2lvl12Z5HVw8=
 		</data>
 		<key>Sage.momd/VersionInfo.plist</key>
 		<data>
@@ -362,7 +350,7 @@
 		</data>
 		<key>StatusTableViewCell.nib</key>
 		<data>
-		MqlW6uqvvMYZIMfaysutyX0II08=
+		4unESgAVIwI+A3pdf9WSBk5NAmU=
 		</data>
 		<key>TCFLocalizable.strings</key>
 		<data>
@@ -370,27 +358,27 @@
 		</data>
 		<key>TCSActionView.nib</key>
 		<data>
-		H0tPuuir0FwWeJIcnXYS7F9s464=
+		kmdQMoMiA+/no6seVSEYHuQWU34=
 		</data>
 		<key>TCSAvatarView.nib</key>
 		<data>
-		B5KLaKxZWhk3bNU1rUVSj9BhQO4=
+		VlmbCsGNnrpFmgY64sGYh9jYDZI=
 		</data>
 		<key>TCSBlockWithTitleView.nib</key>
 		<data>
-		4jOnb2fRuBDhd6B6QrZ1z6hwDl0=
+		ESFSn/CC64HJgSA+CfmMyFKDamg=
 		</data>
 		<key>TCSCFImages.bundle/Assets.car</key>
 		<data>
-		rTu86uXkeJB74c8fZ3M1FVNh9R8=
+		609tpgvcPiOwTFLZMxaQ9he30P8=
 		</data>
 		<key>TCSCFImages.bundle/Info.plist</key>
 		<data>
-		U2+PiIX8RAZh9DxC+IAmPDgPvTM=
+		rpDznHse+b3/b84Xy264F5+vcDY=
 		</data>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		Qw/rM1X6E4ho5D23bf+Bh2mgfWA=
+		4Oek2rpO28dR/le3oGBpxYxJtiY=
 		</data>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -398,11 +386,11 @@
 		</data>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		1O6GQIMJnvYAgtKI2UmaE8JWSYU=
+		le+QYRt5C9U4XilU/OfNcLjQep4=
 		</data>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		Yx2MZk6+pShDjCtwnk27GneotOY=
+		YWHxK7lEfIQ3O3kwVtDRZltQyUs=
 		</data>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -414,7 +402,7 @@
 		</data>
 		<key>TCSCardFieldButtonsView.nib</key>
 		<data>
-		/W9vDbff71SJO5vU1HCggAq6Eo0=
+		lh53YYWcMSvrHK3uOuCrfNQR99A=
 		</data>
 		<key>TCSCardFieldIconsView.nib</key>
 		<data>
@@ -422,31 +410,31 @@
 		</data>
 		<key>TCSCardFieldInputView.nib</key>
 		<data>
-		5+vqxaTiApyVL0g/9FllCKxmeBU=
+		GuD0S+v7Wze47FbzuKfkjGyWf5k=
 		</data>
 		<key>TCSCardView.nib</key>
 		<data>
-		iaJh8BFg4Jn46nXOdHPV+7ta82I=
+		0k7r7+tr+Wbv9IawPVHHYtLm6h0=
 		</data>
 		<key>TCSCellView.nib</key>
 		<data>
-		nOMF5/OCzuCeRx42xtSpk2ZuprE=
+		cQ9lpNaI35fyIlMdNVWe528Btlw=
 		</data>
 		<key>TCSCheckboxView.nib</key>
 		<data>
-		leOChhRWuRkyb7ltWdYIsMDXxFo=
+		5D11SuvGAMWIHdMEHRAmVVdVcW8=
 		</data>
 		<key>TCSDetailedBlockView.nib</key>
 		<data>
-		EZm4GiUf9z7wwGYMAm0PWkTBrBU=
+		EgsUsx4wl8LSZp2Ty8BePXh50Nk=
 		</data>
 		<key>TCSLoyaltyProgramView.nib</key>
 		<data>
-		HxQqTB6fs6jls9i95xIZBCm6NY4=
+		9jQlCpWz1zkZJqyfY7bCoBZGQ94=
 		</data>
 		<key>TCSOfferView.nib</key>
 		<data>
-		qsERJ98V8AjbpR1v+2dtmgFePHE=
+		wu2m/i27KXCFzwK1+xQIKR5C8D0=
 		</data>
 		<key>TCSSimpleTableViewContainer.nib</key>
 		<data>
@@ -458,7 +446,7 @@
 		</data>
 		<key>TDKFonts.bundle/Info.plist</key>
 		<data>
-		WQHBv2v29k6VglKWSMBXdNWuhJU=
+		RQV0ijvfrH4hFamfFAseO5mJwV8=
 		</data>
 		<key>TDKFonts.bundle/SFProRounded-Bold.otf</key>
 		<data>
@@ -478,7 +466,7 @@
 		</data>
 		<key>TDKFonts.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		tplXFQFeTqXDRFS/FlPE8tAru3I=
+		lZ+GtR7ErTkvnx3SU30UhObpC18=
 		</data>
 		<key>TDKFonts.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -486,7 +474,7 @@
 		</data>
 		<key>TDKFonts.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		uHttg2AWdhQE+EBSkYoi7w9S6ac=
+		R1zF8tYo7sM3GV9DOTdyTjO+314=
 		</data>
 		<key>TDKFonts.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -498,15 +486,15 @@
 		</data>
 		<key>TDKImages.bundle/Assets.car</key>
 		<data>
-		YfNYGt/xXBgbV8BkGRPC7ZLOgOs=
+		OPuVjH92gCCzo0U7A+klBqRYjDc=
 		</data>
 		<key>TDKImages.bundle/Info.plist</key>
 		<data>
-		1jeGnlI9POMO7wz+fhgo2pQ4OSc=
+		XMOW0Vr6eUVNNXVP77aSZTIGXes=
 		</data>
 		<key>TDKImages.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		qQh8sMUvkXcIpOIw0L0ehUN2A80=
+		kery9kSiXzG0CnwaYSmIUAV79DU=
 		</data>
 		<key>TDKImages.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -514,11 +502,11 @@
 		</data>
 		<key>TDKImages.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		ReJope2yCK+VkokypPAeX6qn5IM=
+		/UiRNu8GYsXdjo8OCtg8Wd0BdgQ=
 		</data>
 		<key>TDKImages.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		dqSf3D9CmPTmmRyZ7uP26sanmDw=
+		Oh13spRJXWQcEchiT1FBVCtQZaY=
 		</data>
 		<key>TDKImages.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -526,15 +514,15 @@
 		</data>
 		<key>TSFImages.bundle/Assets.car</key>
 		<data>
-		MLz/rrjFj9Ya24ipsRpMuiLCMNk=
+		IX5/w5HbQFCeqgIW2cqIod/KG80=
 		</data>
 		<key>TSFImages.bundle/Info.plist</key>
 		<data>
-		yNATDZsfXZkXUbRXRkq8PP3/tbs=
+		f4aBv8ty3nP2WDy0IZh3RIlP3vk=
 		</data>
 		<key>TSFImages.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		2E0p3X2sZzz1im6YJLbk64YGcOs=
+		hatlbtY5Heom4uOSU6MjP2jmuHc=
 		</data>
 		<key>TSFImages.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -542,11 +530,11 @@
 		</data>
 		<key>TSFImages.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		Dz2g5LbGCXwYBRKLYlNLeTJZeuo=
+		0AgB4wwBSF/YZ//bzcqGZAe8Y2Q=
 		</data>
 		<key>TSFImages.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		t9r+aFd7ZY+DvNDhmujpj1jPXiQ=
+		aVPK3t2K/WJ9qOQOd7O7EjzLusE=
 		</data>
 		<key>TSFImages.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -554,19 +542,19 @@
 		</data>
 		<key>TextFieldTableViewCell.nib</key>
 		<data>
-		oT953lOEq5GaqAkwSY3fRTCsr5U=
+		jQDYV/Z0pEN1WzG/e70X984oHlw=
 		</data>
 		<key>TinkoffASDKUIResources.bundle/Assets.car</key>
 		<data>
-		GgPEEEz1RA6h1BNrf7p+K3lh/W4=
+		b1n36BzBk2CBGl9a2p5QhJFhgrs=
 		</data>
 		<key>TinkoffASDKUIResources.bundle/Info.plist</key>
 		<data>
-		RFqicu4l+PMdXRnXPONbPD8+0oQ=
+		AWz06x9s8vlccBss9WXtR9vtLTw=
 		</data>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		ybn8+RWD/4MUE84j5SAz0uvoRTg=
+		dJF2I1+qY8YX2XunFtOPsQXrf1A=
 		</data>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -574,11 +562,11 @@
 		</data>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		HXXlkDS7sJkn/r8ztDLmniSeqZM=
+		CKVgzdG3F8n+uZn0g2A+ivM3HT0=
 		</data>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		nbDk38+GiRx6LLfHFebLhjqn9CA=
+		xlxARJs2AZ388IWgGU0jZagJtq0=
 		</data>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -612,7 +600,7 @@
 		</dict>
 		<key>mb.html</key>
 		<data>
-		O9BlxNR+FMfXPsYMNgvRpmvvgeQ=
+		oHx+auJx4KwpYPa91yaDXHnEv04=
 		</data>
 		<key>ru.lproj/TinkoffASDKCoreLocalizable.strings</key>
 		<dict>
@@ -639,7 +627,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dtoTjja2zys/IidzNnr1FXS9XDlFXUnxuoC2he7LmSg=
+			v/4vVtLiW+RnE2PxvsQwnlpGp1AhYlWvOyKPPu/IXt8=
 			</data>
 		</dict>
 		<key>AcquiringPaymentViewController.nib</key>
@@ -653,42 +641,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KD3Kik+LW6tb5HL/ZcX8SO8QiEMCcIRfHMJ9TBn9soA=
+			gZ/1Vg0FLqGR0qCD+mSjq/NdlRcJLjjHSkyJtMFFebI=
 			</data>
 		</dict>
 		<key>AmountTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1xxdTY+lghvlK1BrYRPa3kY1L5dumJggnSWcACxsuWs=
+			PjIrPIIDpmJn6k+HcAdz+OuyAe43eTugr/x8Ws6vjtM=
 			</data>
 		</dict>
 		<key>ButtonInputAccessoryView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WycQla3OdPQIDtpR03l/n8gwTahz4UOWGw77UtCvi8s=
+			wv6FnFuBWrdCLRcj2Cd4DcaeALcxaSR11QLHQk8tU8Y=
 			</data>
 		</dict>
 		<key>ButtonTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1gTRlKr2uqSJPN6w3lxZhq6X8cPzrMYpjmHYWUTO9XY=
+			on3w3pdXtOIRZt7agO0wUvt/fH2D0IRakUkezGawFkw=
 			</data>
 		</dict>
 		<key>CardListStatusCollectionViewCell.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XYugnSAB4S+UyosCZXr09X/xmpyA39IC7011efy/V5U=
+			1OPWq/Hlv5yuWgYkEW5Qv8D4v0aU1IuEE5MofNI0ux8=
 			</data>
 		</dict>
 		<key>CardListStatusCollectionViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wx4R/nUVNuM1CEUSCrDvrmvVIR0RkQQcE40hh6RLTg0=
+			PWpMlRXscWajpXZYBjTrYROcaC6VM54rN0MMkXoK7Jk=
 			</data>
 		</dict>
 		<key>CardsViewController.nib</key>
@@ -709,21 +697,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+8OOhyxy2asvdAdHg1iHTj66wfKjvkXl9WpbbH/RslI=
+			hQh+qcqqn67IBIpdlfw6T16bwQ1JkK72oJGJ0D+4Qow=
 			</data>
 		</dict>
 		<key>DolyameSDKImages.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mn0qWT+Dw4bwKJqFRvG1YclWHzwFjfpT6SnS97gWKas=
+			L2QgRdJRudGPqBO8YjzrjtnVH8AY6KvyDMn0nWYZwo0=
 			</data>
 		</dict>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mTI2REUOl21bI1WlvVS9EeDjxQYEuzlWVLSC8590pA8=
+			azX+yEvamdfs1+YjCOyLJHTa6fmfvdIbPVKmJl0LN6c=
 			</data>
 		</dict>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeRequirements</key>
@@ -737,14 +725,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aveCrXhfz8EZbF4La/1/QBIfvreYAOo4RJoxpi6J9yQ=
+			i7HpJXNapVFqLUXEg8VOG28eVxU9BLZ+QtM/xof5mok=
 			</data>
 		</dict>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5crhL21s3oKQiw/8XUcQ/bNEk5+/wSNs4vZy1V2yflU=
+			7+dPT/BR5+pGq3ljWokYdPVrt86fkK1q8OpDRjJ/80A=
 			</data>
 		</dict>
 		<key>DolyameSDKImages.bundle/_CodeSignature/CodeSignature</key>
@@ -758,7 +746,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZWdz9eD1UcrAtsiHGihPIcYmnusBToDSFM6pIf6gFfU=
+			dJmBUfXf+zOYuSsZDRTjTvcxJ+DKg1bChJXEflsLOY4=
 			</data>
 		</dict>
 		<key>Events.momd/VersionInfo.plist</key>
@@ -898,7 +886,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jQTSn4ALqwY0wOH0IRVAXT4izOnxq2mYd/RfdzdMSRo=
+			NiK0LY7duP4dPsoyzOAKOfR6dyWixqbhwkFpRsCrzJw=
 			</data>
 		</dict>
 		<key>Headers/DolyameSDK-umbrella.h</key>
@@ -1010,14 +998,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TH5+/VxDC/SpSVSSoj5tgDQ0oak+GdgX54bhjW0CLiw=
+			voe+sUE81cJVOpNUdzf2lKoQdXYs4Tqm5r5YIfhmRTI=
 			</data>
 		</dict>
 		<key>LabelTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vaPKBqSFkdvK7g1LlKo33jIuHjNneAhXu4duduFIRvw=
+			+63A8HCmUG5yTijKfzIMvIUHzJ2PIyhwdv8gJjFb//M=
 			</data>
 		</dict>
 		<key>LoadingCollectionViewCell.nib/objects-12.3+.nib</key>
@@ -1052,42 +1040,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+bNO3I84GoNPAKPL0zUJ5NLMzfKZVy79AujQL54IXRQ=
+			ZTigrSssANNLXsKp7tV/SglsA4lYaYO73/EvO3DAEJM=
 			</data>
 		</dict>
 		<key>Modules/DolyameSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QQLlLaX9TduGu0NVZ5cMo+AJcTu1wAm+gniF/xo+W9A=
+			TsNfm+j2DS6VILJR8adTR8ND61vuFCnr7k38Hsoh5Fo=
 			</data>
 		</dict>
 		<key>Modules/DolyameSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n+sw/VoMMUNvWgTpUNrA09CCkDiM9wwBiXSDd36P3zA=
-			</data>
-		</dict>
-		<key>Modules/DolyameSDK.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+bNO3I84GoNPAKPL0zUJ5NLMzfKZVy79AujQL54IXRQ=
-			</data>
-		</dict>
-		<key>Modules/DolyameSDK.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QQLlLaX9TduGu0NVZ5cMo+AJcTu1wAm+gniF/xo+W9A=
-			</data>
-		</dict>
-		<key>Modules/DolyameSDK.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			n+sw/VoMMUNvWgTpUNrA09CCkDiM9wwBiXSDd36P3zA=
+			+lel/iFc0Bg5904gSNTqaSUhBcDn0PUJBHnJ78H561Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1108,63 +1075,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4EVWeI+T3wR6WfAW5lz7WYl8iZnLl1UuF/e7jHsi5qc=
+			uM7FDWSXJybDRa8+p6a438S5GGq8Zxfx4ghc21J6ARo=
 			</data>
 		</dict>
 		<key>PageStatusCollectionViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rbb9l3pabZJOPDkceJBW1zINCjPlN5JHaIQVLOMhnas=
+			sv1OeTIiUJLLyhYtnYXCGgsc2og041iPerVFUUvlXS0=
 			</data>
 		</dict>
 		<key>PageStatusListCollectionViewCell.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xklqdcM6OQmav07IJA7xPdTQdOD7x4yTxKYdVBLeZBs=
+			gWRpNTVeGWeUzOvs5ds3C14z5xz9kDtmYBkT0JbFQ2E=
 			</data>
 		</dict>
 		<key>PageStatusListCollectionViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pdHAexiez6k+Fj0OBYEZKtM11AHdLzVOL5wQHw+6LH0=
+			B0EOr+e6FrmsmDxgIGDF/S1FN2L3DQ5VdJxXxsoRgvk=
 			</data>
 		</dict>
 		<key>PaymentCardCollectionViewCell.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yuagDTC3XnuVtPouaArXBU4vXKV2BFlwtnX8cXVmRVs=
+			YXQ0ggxTLfYdrBmFK+QQcS7RxE770pORj3BiwrRUFZw=
 			</data>
 		</dict>
 		<key>PaymentCardCollectionViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I9Nr++ibZs9gx3p5G+RSnsokEAR/8hEjjv5qLyLYp5Y=
+			UN/wPxTYkyWPEj9YYjGSUq/3144SIwozz4S0obXu00A=
 			</data>
 		</dict>
 		<key>PaymentCardInputRequisitesCollectionViewCell.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p6wmJ7d4qDbLB5x1PGjWxk8KSLf/P9MxJzyNhdu7N64=
+			xdmQBsPuHlt1ovQj6hdDuH2CRkDwL+cm75pjoxKTDeY=
 			</data>
 		</dict>
 		<key>PaymentCardInputRequisitesCollectionViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mSLQC26CU/u2+fKcLqQ0tvUsP13R8wGVTtoEMt5/MFw=
+			13X3Qw6+Xq+xlfEJzuC1RDEEM+zrkF/8ZAwz9KmVwvI=
 			</data>
 		</dict>
 		<key>PaymentCardTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VirHk9KpS8faaZ/KmeZiPik0FCLdonA54gn2Wd3aNY0=
+			UrrkPyy3ic6AekzK3wmxYzypisw/eOg5wDb3dc6idIA=
 			</data>
 		</dict>
 		<key>PopUpViewContoller.nib</key>
@@ -1178,7 +1145,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5IH/NEDr9HNFNTncGWB/X2/b67IIoU4rip7Sjd9wcDw=
+			EWKC4y2JOstGeXQqRroM7MUqw+9yiMEBNGSyIJDPJ2E=
 			</data>
 		</dict>
 		<key>QRCodeImageTableViewCell.nib</key>
@@ -1199,7 +1166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FNq6VS/tlI/FpYbAbd1WCmJMUGbtfVMJPCLwNynwS88=
+			8aijxvUbeeeH571UYEOBW3XLrywNtD8jpyz5sEQTeCE=
 			</data>
 		</dict>
 		<key>RandomAmounCheckingViewController.nib</key>
@@ -1234,7 +1201,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O2J9f4PH71Q80AwjY87R0VeZNyvMEAJM1wCIt3YtoZk=
+			iEWXq+d4iJFufIOFXpUTKzKnnLfwikrri5vf7BLNtb8=
 			</data>
 		</dict>
 		<key>Sage.momd/VersionInfo.plist</key>
@@ -1255,7 +1222,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cpuy2FaXi+GruUrwyqvki9k/fSvvOcBaOKk8IHP4Heg=
+			TQ8KHNZwrRdAj9kMsIUxHmkMKegWMt1NDzJSc+k5kb0=
 			</data>
 		</dict>
 		<key>TCFLocalizable.strings</key>
@@ -1269,42 +1236,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BzcBzbu6Aeyy3hjKxW4Oc3Oo60qSzreJsoLQ7WqIido=
+			22Hnv6++vqDZrAfXotEzM71SN+JJTNQX6pawdLKyRz8=
 			</data>
 		</dict>
 		<key>TCSAvatarView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ehvDP3o4Yhm5InhEwXmskSxoaUF8JL0Ky4Ojc6df00=
+			sc/XZ5ByVkaWG1UAyPWmJRRhg9j+idCG4tpdSoC1A2o=
 			</data>
 		</dict>
 		<key>TCSBlockWithTitleView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rgpzz/lOI3tzIoUJHWiTx1cKBYKDRI3wKnDW8+yIcCM=
+			brbdcp3B+ZWvNc7j1Tz5hO1J8HT1mFu/E6E2UMi7vvY=
 			</data>
 		</dict>
 		<key>TCSCFImages.bundle/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OCS0HRISFILTrlnPOowhdkFVMTdeEI/ObTWtmm8r57Y=
+			PrpVWkw0Hh6HlhRzqr88b9EAmk059RMTmZbDok8lIP4=
 			</data>
 		</dict>
 		<key>TCSCFImages.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ar8ogBm59tJbMq15vcZml9NHFzaI2YR7Q14qn88IGCo=
+			R9K9shUjXmwO65c6v0wixi0I77FeQ+KYkD1UXbln1Cs=
 			</data>
 		</dict>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LKAMjPLpIZGerng98fqVQvTd5uDGHKTj87KJCfuqHjE=
+			CyQFLRfPm8puJnmGZt5R92o48WaZNm5p6ij78ZZnAxY=
 			</data>
 		</dict>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeRequirements</key>
@@ -1318,14 +1285,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6xwnx3hXQyuwr+DgtVwfC5KFhIwRJSil/qVqljaSQkk=
+			mLIqj+JBlcDyUfcDm6fzNlHnsDS40Slj16jaGcRells=
 			</data>
 		</dict>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CPJwVTUsfB+NBpYlV1WzwdLodz1ExUnad1rY/qWy6xE=
+			Ena4mDWMovDz6avD9eqlx1DqH/tIkgvUG+36T/oFGUI=
 			</data>
 		</dict>
 		<key>TCSCFImages.bundle/_CodeSignature/CodeSignature</key>
@@ -1346,7 +1313,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YplhXNgNewqFOLeKW6tDHbgciXX6lm2DbxbDX1JGvE0=
+			zPOBT055Bb3fBGVCKZF5yvCLVPtyfDwGm9gK3Be+1w0=
 			</data>
 		</dict>
 		<key>TCSCardFieldIconsView.nib</key>
@@ -1360,49 +1327,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TgAmyr7N3if34xHLKPcXCS8DMUJq+g1bGHmi6XeNIgE=
+			C+/5Qo7yyBb+iWPIIBUrbmwlff8zWgMpA+7dxQqx2UY=
 			</data>
 		</dict>
 		<key>TCSCardView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gvEXzW1tAr6kWrGMKU5CMT3Kz1pwKiOE9UKT9QPohxc=
+			KBMMc6Aqhl3oPc+tTX1h+ASzvdL/yzQZIYH5JxxJMbQ=
 			</data>
 		</dict>
 		<key>TCSCellView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TrEm07x0TfbHBrwWx//cyIOYKZXW39uKg8SZSFLHSKE=
+			ESQahkjpZ0ZQ+9ou5I3uMHnevrrkBesqNXLEntkUtO8=
 			</data>
 		</dict>
 		<key>TCSCheckboxView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lFwX4oNd23Talag0XcS3QAFEpNX8aESXqvt4nBdXJbU=
+			DZvSrwl9p05BGVcKlN2sYYKGV5mXhb5QpEBPs5G2bp4=
 			</data>
 		</dict>
 		<key>TCSDetailedBlockView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zeE5k+8PPGfEyrbPiXiVQpzvKW+Hh+z1OeZkP37IRNQ=
+			dAvcWaJJcaJexaufNs1qL2BDL6fPAjBZUkEDIc3+rEQ=
 			</data>
 		</dict>
 		<key>TCSLoyaltyProgramView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LWYDaDwchw8QjsI4tEBUnCvHy+CLgC3im6BOF1deMaY=
+			uilcoh/fPNBc+xPrPv4+1l4cqfTVd9KnAGiIU4RgSpg=
 			</data>
 		</dict>
 		<key>TCSOfferView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OddkXNMmYiEk59u3GTI0QV7jC/IUua5li83/5rNzjrQ=
+			vvbQecNF8l+4xbgR3QKfPKIjKn3aw3nLzfnri8f/rww=
 			</data>
 		</dict>
 		<key>TCSSimpleTableViewContainer.nib</key>
@@ -1423,7 +1390,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NJGy56f8ciOe2JtivsZXKcDIry62v9HQkHhakqyFgiM=
+			GfgYCCPW3ALpfpERznH3hNiI776PmNY1lmY8eCRbUiM=
 			</data>
 		</dict>
 		<key>TDKFonts.bundle/SFProRounded-Bold.otf</key>
@@ -1458,7 +1425,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hh9HuKFkzRWaXXkgEn7+S/hHb9edPt0lGlAE432H07w=
+			71x0qo8Szh046jWntg+CKZbqwPliokctVKJr/IvuYz0=
 			</data>
 		</dict>
 		<key>TDKFonts.bundle/_CodeSignature/CodeRequirements</key>
@@ -1472,7 +1439,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			viBT06yq2l0/sBZmL6eORs4W+knwwM+LWZwVaHR/eSA=
+			5CmgpLgIY2BLV559252CldOFNBjITK/wHGKlyg3xsr8=
 			</data>
 		</dict>
 		<key>TDKFonts.bundle/_CodeSignature/CodeResources</key>
@@ -1493,21 +1460,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ieRFyd1M9l97CWZsI6KB9eTqzzCD+AaP+vKDZu3esw=
+			Xoo1o7wJyGeQOXJGbmccviOt0mx1ufr70zcZPlgEREo=
 			</data>
 		</dict>
 		<key>TDKImages.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			idls8CpU1VS3rltkidLnVtiliNIhXDINJ1666pFY8S0=
+			mAafiyE1NmHiWDglUc0WkjpWWmdJiMhD536iML05g9s=
 			</data>
 		</dict>
 		<key>TDKImages.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HaAvqg12QMx9dVw4ZUftUC53b3hrZgMpQroxPQOQI7o=
+			Ffxp2FBXL7XmyCoKnhBrDDffMfcEo4N8M/qzKBe2Z9M=
 			</data>
 		</dict>
 		<key>TDKImages.bundle/_CodeSignature/CodeRequirements</key>
@@ -1521,14 +1488,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iyZMycpPE5qhx7UKfjorKMLF0EjvL46BlH27IGoWqww=
+			A8G+DBoHPhs4/oHcwiJxOsbhgaJjmrgEXBWzFd7Uwkg=
 			</data>
 		</dict>
 		<key>TDKImages.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AHZHtANqFLmSNF9brMqTOMeNE2/t5dcpAfQV1iKW/2o=
+			np7/uEOs2DyvMd5DL1IoqG3D4nYSjR3CqnKYzUFXPdg=
 			</data>
 		</dict>
 		<key>TDKImages.bundle/_CodeSignature/CodeSignature</key>
@@ -1542,21 +1509,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FJofuY/ud73KQtfNPp/1wLDU+3LWQ1LbRTI88XrUMB8=
+			uzpj+k5Sgb29JGn+OqPeh5i4K971ZIdVmasefvyp+50=
 			</data>
 		</dict>
 		<key>TSFImages.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qhi5K8phL5TZskaK0X+Mv9Mxjxl7h43QQYb0BzSrWiE=
+			s+BKxOvMWMKpE+jm0hGik856uFX8hfohd+JBADlx1gY=
 			</data>
 		</dict>
 		<key>TSFImages.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			itNUYBdcSGb8RE5NRym9/NfyapH5PdMHBpDRFiwsDBk=
+			Ay+wi/XEIGmloqRa6A51ZcBNXxFygXjBF/M6TUI8D+k=
 			</data>
 		</dict>
 		<key>TSFImages.bundle/_CodeSignature/CodeRequirements</key>
@@ -1570,14 +1537,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EdZ9VMaRqpEJP4KkGttOzwMTbPEv/1DUELc+ZnZA48s=
+			jk3C3FT2DlKFmLKdcR9E+zlgjh91bL6CEfTatzbW4v8=
 			</data>
 		</dict>
 		<key>TSFImages.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jm0/f9dMoWI+t9+Z9ncto/bEmqSfl4YaCwPszmxAXK0=
+			/H/c6wS8ybolRs9kTt8Lx72kHytxxEpsH578YUxJGn4=
 			</data>
 		</dict>
 		<key>TSFImages.bundle/_CodeSignature/CodeSignature</key>
@@ -1591,28 +1558,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Oi9isDC7F/g5suzjWCLo1hyxhnQlxm/wl9Sxz7l2yng=
+			elA4YPRktmW5e0UqBdTe2ops1gcs8jUcSJ9RjqYWmfo=
 			</data>
 		</dict>
 		<key>TinkoffASDKUIResources.bundle/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9nwiyvwhIi0j47ulSsPjZron3I8jrE2SLzCvPcAEuws=
+			wnRzHnlFyn8ohKD61GaGn7zoWVNSoU1uJyybMquMiCc=
 			</data>
 		</dict>
 		<key>TinkoffASDKUIResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R3T7KUyMrL2l+hn4jHlQEOLbmEJfBFNj6ptp1zqkAiQ=
+			jFtL5IeN769IkVHTeG36pyymbdlgjLy7os+NWrSx4X0=
 			</data>
 		</dict>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8uLnEP+zOlshJcUnYeREwwgw5cFljB62ELAi5DZlCuQ=
+			UUt3Gt+aJfSXUrmQvkXHDVBCm3HrxB1mn4c/yUiVQXk=
 			</data>
 		</dict>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -1626,14 +1593,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TWaNmMTgz36ZADPpvzppW4VBKWamKXlD2/QQfKdTQvI=
+			5UM0f+jdlgZzyWRqB9aSZKqNfzj2U8BzjH3S50FCSY4=
 			</data>
 		</dict>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VAWB+TN2e4ssNLPrm3VmCRbyrnrmsOc24jAGeB2ObiU=
+			bDFeWMY9GcdbLtrMQvRcias8TC2ppseWrMwBdARc6Wk=
 			</data>
 		</dict>
 		<key>TinkoffASDKUIResources.bundle/_CodeSignature/CodeSignature</key>
@@ -1679,7 +1646,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hb4H00wqd8x4zezJ7icvGIOZK0FvipGBuhMfJt+uALw=
+			gqWuVu35eRK0YXI+6mX3ZxDIGHNWfPoE/1CP1SkuUs4=
 			</data>
 		</dict>
 		<key>ru.lproj/TinkoffASDKCoreLocalizable.strings</key>

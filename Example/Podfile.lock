@@ -1,5 +1,5 @@
 PODS:
-  - DolyameSDK (1.0.14)
+  - DolyameSDK (1.0.15)
   - SnapKit (5.6.0)
 
 DEPENDENCIES:
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DolyameSDK: 450520a74b418560ecce8fbdd394955234ba5e0d
+  DolyameSDK: e79ab126eed9ed21ea09feaa05c67d048bbf10dd
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
 PODFILE CHECKSUM: 687c560e5270108e27cfc4901d5294ec56a29c46
