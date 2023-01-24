@@ -49,7 +49,7 @@ class CheckoutPresenter {
                                              clientInfoFirstName: "Оксана",
                                              clientInfoLastName: "Чичваркин",
                                              clientInfoMiddleName: "Валерьевна",
-                                             clientInfoPhone: "+79133008080",
+                                             clientInfoPhone: "+79876874585",
                                              clientInfoBirthday: "17.10.1989",
                                              clientInfoEmail: nil)
 

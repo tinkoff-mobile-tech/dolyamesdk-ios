@@ -62,7 +62,6 @@ class InputValueValidator: IInputValueValidator {
     private func animateTextField(textField: UITextField) {
         let borderWidth = textField.layer.borderWidth
         let borderColor = textField.layer.borderColor
-        // swiftlint:disable multiple_closures_with_trailing_closure
         UIView.animate(withDuration: 1.0,
                        delay: 0.0,
                        usingSpringWithDamping: 0.4,
