@@ -25,7 +25,7 @@ URL на который будет приходить вебхук вы може
 
 ## Алгоритмика использования SDK
 
-Минимальная версия iOS 12.0, bitcode выключен.
+Минимальная версия iOS 12.3, bitcode выключен.
 
 Для интеграции SDK нужно:
 - встроить настройки `NSAppTransportSecurity` в `Info.plist`
@@ -38,12 +38,12 @@ URL на который будет приходить вебхук вы може
 
 # Секция 0: `NSAppTransportSecurity` в `Info.plist`
 
-Нужно добавить `cdn-tinkoff.ru`, `tinkoff.ru`, `tcsbank.ru` и `dolyame.ru` в App Transport Security - Excluded Domains. Для каждого из них нужно сделать `AllowsInsecureHTTPLoads = YES` и, обязательно, `NSIncludesSubdomains = YES`.
+Нужно добавить `qr.nspk.ru`, `cdn-tinkoff.ru`, `tinkoff.ru`, `tcsbank.ru` и `dolyame.ru` в App Transport Security - Excluded Domains. Для каждого из них нужно сделать `AllowsInsecureHTTPLoads = YES` и, обязательно, `NSIncludesSubdomains = YES`. Также необходимо указать свойство `AllowsArbitraryLoadsInWebContent = YES`.
 
 <details>
     <summary>Вот так будет выглядеть секция Info для таргета вашего приложения</summary>
 
-![A screenshot from Xcode](./docs/res/app-trasport-sec.png)
+![A screenshot from Xcode](./docs/res/app-transport-sec.png)
 
 </details>
 <details>
@@ -54,8 +54,17 @@ URL на который будет приходить вебхук вы може
 <dict>
     <key>NSAllowsArbitraryLoads</key>
     <false/>
+    <key>NSAllowsArbitraryLoadsInWebContent</key>
+    <true/>
     <key>NSExceptionDomains</key>
     <dict>
+        <key>qr.nspk.ru</key>
+        <dict>
+            <key>NSExceptionAllowsInsecureHTTPLoads</key>
+            <true/>
+            <key>NSIncludesSubdomains</key>
+            <true/>
+        </dict>
         <key>cdn-tinkoff.ru</key>
         <dict>
             <key>NSExceptionAllowsInsecureHTTPLoads</key>

@@ -274,7 +274,6 @@ using UInt = size_t;
 
 
 
-
 @class NSCoder;
 
 SWIFT_CLASS("_TtC10DolyameSDK20DolyamePaymentButton")
@@ -311,6 +310,7 @@ SWIFT_CLASS("_TtC10DolyameSDK7EventMO")
 
 
 
+
 SWIFT_CLASS("_TtC10DolyameSDK5LogMO")
 @interface LogMO : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
@@ -329,6 +329,18 @@ SWIFT_CLASS("_TtC10DolyameSDK5LogMO")
 @property (nonatomic, copy) NSString * _Nullable thread;
 @property (nonatomic) double timestamp;
 @end
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -690,7 +702,6 @@ using UInt = size_t;
 
 
 
-
 @class NSCoder;
 
 SWIFT_CLASS("_TtC10DolyameSDK20DolyamePaymentButton")
@@ -727,6 +738,7 @@ SWIFT_CLASS("_TtC10DolyameSDK7EventMO")
 
 
 
+
 SWIFT_CLASS("_TtC10DolyameSDK5LogMO")
 @interface LogMO : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
@@ -745,6 +757,18 @@ SWIFT_CLASS("_TtC10DolyameSDK5LogMO")
 @property (nonatomic, copy) NSString * _Nullable thread;
 @property (nonatomic) double timestamp;
 @end
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
